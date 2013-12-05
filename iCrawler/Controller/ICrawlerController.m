@@ -16,7 +16,7 @@ ICrawlerController *sharedInstance = nil;
 
 @implementation ICrawlerController
 
-@synthesize currentViewController, visitedStates;
+@synthesize currentViewController, visitedStates, edgesCommands;
 @synthesize globals, currentState, dynamicState, navItem, monkeyID;
 
 
@@ -56,6 +56,7 @@ ICrawlerController *sharedInstance = nil;
 
 - (void)setupGlobals {
 	self.globals = [[Globals alloc] init];
+    self.edgesCommands = [[NSMutableArray alloc] init];
 	self.dynamicState = VALUE_ZERO_PARAMETER;
     self.monkeyID = VALUE_ONE_PARAMETER;
     [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"IC_barButtonAdded"];
@@ -389,6 +390,7 @@ ICrawlerController *sharedInstance = nil;
 - (void)dealloc {
     [self.globals release];
 	[self.visitedStates release];
+    [self.edgesCommands release];
 	[super dealloc];
 }
 

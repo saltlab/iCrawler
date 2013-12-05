@@ -17,6 +17,7 @@
     int dynamicState;
     int monkeyID;
     UINavigationItem *navItem;
+    NSMutableArray *edgesCommands;
 }
 
 @property(nonatomic, retain) UIViewController *currentViewController;
@@ -26,6 +27,7 @@
 @property(nonatomic, assign) int dynamicState;
 @property(nonatomic, assign) int monkeyID;
 @property(nonatomic, retain) UINavigationItem *navItem;
+@property(nonatomic, retain) NSMutableArray *edgesCommands;
 
 
 + (ICrawlerController *)sharedICrawler;		// this returns nil when NOT in DEGBUG mode

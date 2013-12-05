@@ -36,5 +36,7 @@
 + (UIElement*)addUIElement:(id)_object;
 + (UIElement*)addNavigationItem:(UIBarButtonItem*)barButtonItem withAction:(NSString*)action;
 + (UIElement*)addNavigationItemView:(UIView*)thisBackButtonView withAction:(NSString*)action;
+- (void)setMonkeyIdForView:(UIView*)subview;
+- (NSString*)getMonkeyIndexForButton:(UIButton*)btnView;
 
 @end

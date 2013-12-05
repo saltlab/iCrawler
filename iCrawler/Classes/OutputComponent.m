@@ -230,49 +230,64 @@
     
 	for(XMLNode* n in nodesArray)
         [graph addEdgeFrom:n.preStateIndex to:n.currentStateIndex command:n.currentElement.monkeyCommand];
-    //[graph addEdgeFrom:n.preStateIndex to:n.currentStateIndex];
     
     NSMutableString *outputString = [NSMutableString stringWithFormat:@"\n\n** Graph with %d nodes and %d edges", graph.numNodes, graph.numEdges];
     
     outputString = [graph print:outputString];
+    [outputString appendFormat:@"\n**"];
     
-    [outputString appendFormat:@"\n\n** DFS & BFS Paths:"];
+    [outputString appendFormat:@"\n\n\n** Test Scripts:"];
     for (int i=0; i<[statesArray count]; i++) {
         
-        [outputString appendFormat:@"\n\n DFS path to state %d is ", i];
+        [outputString appendFormat:@"\n\n   To state %d:  < ", i];
         GraphSearchDFS *dfs = [[GraphSearchDFS alloc] initWithGraph:graph sourceNodeIndex:0 targetNodeIndex:i];
         NSArray *dfsPath = [dfs getPathToTarget];
-        
-        for (NSString *string in dfsPath) {
-            [outputString appendFormat:@"%@ => ", string];
-        }
-        [outputString deleteCharactersInRange:NSMakeRange([outputString length]-3, 3)];
-        [outputString appendFormat:@"\n Test Script is: \n"];
-        
+            
         for (NSString *string in dfsPath) {
             NSMutableArray *edges = [graph.nodeEdges objectAtIndex:[string intValue]];
-            for (GraphEdge *edge in edges)
-                if (edge.to == i)
-                    [outputString appendFormat:@"   %@ \n", edge.monkeyCommand];
+            for (GraphEdge *edge in edges) {
+                if (edge.to == edge.from) {
+                    NSString* dummy = [NSString stringWithFormat:@"%d->%d: %@", edge.from, edge.to, edge.monkeyCommand];
+                    [outputString appendFormat:@"e%d, ", [[[ICrawlerController sharedICrawler] edgesCommands] indexOfObject:dummy]+1];
+                }
+            }
+            
+            int nextIndex= [dfsPath indexOfObject:string]+1;
+            if (nextIndex < [dfsPath count]) {
+                NSString *nextString = [dfsPath objectAtIndex:nextIndex];
+                GraphEdge *e = [graph getEdgeWithFrom:[string intValue] to:[nextString intValue]];
+                NSString* dummy = [NSString stringWithFormat:@"%d->%d: %@", e.from, e.to, e.monkeyCommand];
+                [outputString appendFormat:@"e%d, ", [[[ICrawlerController sharedICrawler] edgesCommands] indexOfObject:dummy]+1];
+            }  
         }
+        [outputString deleteCharactersInRange:NSMakeRange([outputString length]-2, 2)];
+        [outputString appendFormat:@" >"];
         
-        [outputString appendFormat:@"\n\n BFS path to state %d is ", i];
+        [outputString appendFormat:@"\n\n   To state %d:  < ", i];
         GraphSearchBFS *bfs = [[GraphSearchBFS alloc] initWithGraph:graph sourceNodeIndex:0 targetNodeIndex:i];
         NSArray *bfsPath = [bfs getPathToTarget];
         for (NSString *string in bfsPath) {
-            [outputString appendFormat:@"%@ => ", string];
-        }
-        [outputString deleteCharactersInRange:NSMakeRange([outputString length]-3, 3)];
-        [outputString appendFormat:@"\n Test Script is: \n"];
-        for (NSString *string in bfsPath) {
             NSMutableArray *edges = [graph.nodeEdges objectAtIndex:[string intValue]];
-            for (GraphEdge *edge in edges)
-                if (edge.to == i)
-                    [outputString appendFormat:@"   %@ \n", edge.monkeyCommand];
+            for (GraphEdge *edge in edges) {
+                if (edge.to == edge.from) {
+                    NSString* dummy = [NSString stringWithFormat:@"%d->%d: %@", edge.from, edge.to, edge.monkeyCommand];
+                    [outputString appendFormat:@"e%d, ", [[[ICrawlerController sharedICrawler] edgesCommands] indexOfObject:dummy]+1];
+                }
+            }
+            
+            int nextIndex= [bfsPath indexOfObject:string]+1;
+            if (nextIndex < [dfsPath count]) {
+                NSString *nextString = [dfsPath objectAtIndex:nextIndex];
+                GraphEdge *e = [graph getEdgeWithFrom:[string intValue] to:[nextString intValue]];
+                NSString* dummy = [NSString stringWithFormat:@"%d->%d: %@", e.from, e.to, e.monkeyCommand];
+                [outputString appendFormat:@"e%d, ", [[[ICrawlerController sharedICrawler] edgesCommands] indexOfObject:dummy]+1];
+            }
         }
-    
+        [outputString deleteCharactersInRange:NSMakeRange([outputString length]-2, 2)];
+        [outputString appendFormat:@" >"];
+
     }
-    [outputString appendFormat:@"\n\n**"];
+    [outputString appendFormat:@"\n**"];
     
     [OutputComponent outputGraphFile:outputString];
     

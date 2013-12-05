@@ -276,10 +276,143 @@
 }
 
 #pragma mark -
+#pragma mark Monkey Methods
+
+- (void)setMonkeyIdForView:(UIView*)subview {
+    
+    self.monkeyCommand = @"ERROR";
+    //If the button has a label, it is used as the monkeyId.
+    if ([subview isKindOfClass:[UIButton class]]) {
+        
+        UIButton* btnView = (UIButton*)subview;
+        
+        if (btnView.currentTitle && ![btnView.currentTitle isEqualToString:@""])
+            self.monkeyId = btnView.currentTitle;
+        
+        else if (btnView.titleLabel.text && ![btnView.titleLabel.text isEqualToString:@""])
+            self.monkeyId = btnView.titleLabel.text;
+        
+        else if (subview.accessibilityLabel && ![subview.accessibilityLabel isEqualToString:@""])
+            self.monkeyId = subview.accessibilityLabel;
+        
+        else
+            self.monkeyId = [self getMonkeyIndexForButton:btnView];
+        
+        self.monkeyCommand = [NSString stringWithFormat:@"Button \"%@\" Tap", self.monkeyId];
+    }
+    else if ([subview isKindOfClass:[UISegmentedControl class]]) {
+        self.monkeyId = [[subview accessibilityLabel] isEqualToString:@""] ? @"ButtonSelector" : [subview accessibilityLabel];
+        self.monkeyCommand = [NSString stringWithFormat:@"ButtonSelector \"%@\" Tap", self.monkeyId];
+    }
+    else if ([subview isKindOfClass:[UIDatePicker class]]) {
+        self.monkeyId = @"DatePicker";
+        self.monkeyCommand = self.monkeyId;
+    }
+    else if ([subview isKindOfClass:[UICollectionView class]]) {
+        self.monkeyId = @"Grid";
+        self.monkeyCommand = self.monkeyId;
+    }
+    else if ([subview isKindOfClass:[UIImage class]]) {
+        self.monkeyId = @"Image";
+        self.monkeyCommand = self.monkeyId;
+    }
+    else if ([subview isKindOfClass:[UITextField class]]) {
+        self.monkeyId = @"*";
+        if (subview.accessibilityLabel && ![subview.accessibilityLabel isEqualToString:@""])
+            self.monkeyId = subview.accessibilityLabel;
+        self.monkeyCommand = [NSString stringWithFormat:@"Input \"%@\" EnterText abc", self.monkeyId];
+    }
+    else if ([subview isKindOfClass:[UIPickerView class]]) {
+        self.monkeyId = @"ItemSelector";
+        self.monkeyCommand = self.monkeyId;
+    }
+    else if ([subview isKindOfClass:[UILabel class]]) {
+        self.monkeyId = @"Label";
+        self.monkeyCommand = self.monkeyId;
+    }
+    else if ([subview isKindOfClass:[UITabBar class]]) {
+        self.monkeyId = @"*";
+        if (subview.accessibilityLabel && ![subview.accessibilityLabel isEqualToString:@""])
+            self.monkeyId = subview.accessibilityLabel;
+        self.monkeyCommand = [NSString stringWithFormat:@"TabBar \"%@\" Select \"1st Tab\"", self.monkeyId];;
+    }
+    else if ([subview isKindOfClass:[UISlider class]]) {
+        self.monkeyId = @"Slider";
+        self.monkeyCommand = self.monkeyId;
+    }
+    else if ([subview isKindOfClass:[UITableView class]]) {
+        self.monkeyId = @"table";
+        if (subview.accessibilityLabel && ![subview.accessibilityLabel isEqualToString:@""])
+            self.monkeyId = subview.accessibilityLabel;
+        self.monkeyCommand = [NSString stringWithFormat:@"Table \"%@\" SelectIndex 1", self.monkeyId];
+    }
+    else if ([subview isKindOfClass:[UITextView class]]) {
+        self.monkeyId = @"*";
+        if (subview.accessibilityLabel && ![subview.accessibilityLabel isEqualToString:@""])
+            self.monkeyId = subview.accessibilityLabel;
+        self.monkeyCommand = [NSString stringWithFormat:@"TextArea \"%@\" EnterText abc", self.monkeyId];
+    }
+    else if ([subview isKindOfClass:[UISwitch class]]) {
+        self.monkeyId = @"Toggle";
+        self.monkeyCommand = self.monkeyId;
+    }
+    else if ([subview isKindOfClass:[UIToolbar class]]) {
+        self.monkeyId = @"ToolBar";
+        self.monkeyCommand = self.monkeyId;
+    }
+    else if ([subview isKindOfClass:[UIWebView class]]) {
+        self.monkeyId = @"WebView";
+        self.monkeyCommand = self.monkeyId;
+    }
+    else if ([subview isKindOfClass:[UIScrollView class]]) {
+        self.monkeyId = @"Scroller";
+        self.monkeyCommand = self.monkeyId;
+    }
+    else if ([subview isKindOfClass:[UIStepper class]]) {
+        self.monkeyId = @"Stepper";
+        self.monkeyCommand = self.monkeyId;
+    }
+    else if ([subview isKindOfClass:[UIView class]]) {
+        self.monkeyId = @"View";
+        self.monkeyCommand = self.monkeyId;
+    }
+    //		([subview isKindOfClass:[UISearchBar class]])
+    //		([subview isKindOfClass:[UIAlertView class]])
+    //		([subview isKindOfClass:[UIActionSheet class]])
+    //      ([subview isKindOfClass:[UITableViewCell class]])
+    //		([subview isKindOfClass:[UINavigationBar class]])
+    //		([subview isKindOfClass:[UIImageView class]])
+    //		([subview isKindOfClass:[UIProgressView class]])
+    //		([subview isKindOfClass:[UIActivityIndicatorView class]])
+
+}
+
+- (NSString*)getMonkeyIndexForButton:(UIButton*)btnView {
+    
+    State *currentState = [[ICrawlerController sharedICrawler] currentState];
+    NSMutableArray *elements = [NSMutableArray arrayWithArray:currentState.uiElementsArray];
+    int count= 0;
+    NSString *monkeyIndex = [NSString stringWithFormat:@"%d", count];
+    
+    for (UIElement* e in elements) {
+        if ([e.object isEqual:btnView]) {
+            for (UIElement* b in elements){
+                if ([b.object isKindOfClass:[UIButton class]])
+                    count++;
+            }
+            monkeyIndex = [NSString stringWithFormat:@"%d", count];
+            break;
+        }
+    }
+	
+	return monkeyIndex;
+}
+
+#pragma mark -
 #pragma mark Helper Methods
 
 - (void)addActionForTargetUIElement {
-
+    
 	if ([self.object respondsToSelector:@selector(allTargets)]) {
 		
 		UIControl *control = (UIControl *)self.object;
@@ -295,98 +428,6 @@
 			  }];
 		 }];
     }
-}
-
-- (void)setMonkeyIdForView:(UIView*)subview {
-	
-//    if (![[subview accessibilityLabel] isEqualToString:@""]) 
-//        self.monkeyId = [subview accessibilityLabel];
-//   
-        //If the button has a label, it is used as the monkeyId.
-        if ([subview isKindOfClass:[UIButton class]]) {
-            UIButton* btnView = (UIButton*)subview;
-            NSNumber *value = [btnView valueForKey:@"buttonType"];
-            if (btnView.currentTitle && ![btnView.currentTitle isEqualToString:@""])
-                self.monkeyId = btnView.currentTitle;
-            else if (value) {
-                UIButtonType buttonTypeOut = [value integerValue];
-                if (buttonTypeOut == UIButtonTypeCustom) self.monkeyId = @"UIButtonTypeCustom";
-                else if (buttonTypeOut == UIButtonTypeDetailDisclosure) self.monkeyId = @"UIButtonTypeDetailDisclosure";
-                else if (buttonTypeOut == UIButtonTypeInfoLight) self.monkeyId = @"UIButtonTypeInfoLight";
-                else if (buttonTypeOut == UIButtonTypeInfoDark) self.monkeyId = @"UIButtonTypeInfoDark";
-                else if (buttonTypeOut == UIButtonTypeContactAdd) self.monkeyId = @"UIButtonTypeContactAdd";
-            }
-            else
-                self.monkeyId = [[subview accessibilityLabel] isEqualToString:@""] ? btnView.titleLabel.text : [subview accessibilityLabel];
-            
-            self.monkeyCommand = [NSString stringWithFormat:@"Button \"%@\" Tap", self.monkeyId];
-        }
-        else if ([subview isKindOfClass:[UISegmentedControl class]]) {
-            self.monkeyId = [[subview accessibilityLabel] isEqualToString:@""] ? @"ButtonSelector" : [subview accessibilityLabel];
-            self.monkeyCommand = [NSString stringWithFormat:@"ButtonSelector \"%@\" Tap", self.monkeyId];
-        }
-        else if ([subview isKindOfClass:[UIDatePicker class]]) {
-            self.monkeyId = @"DatePicker";
-        }
-        else if ([subview isKindOfClass:[UICollectionView class]]) {
-            self.monkeyId = @"Grid";
-        }
-        else if ([subview isKindOfClass:[UIImage class]]) {
-            self.monkeyId = @"Image";
-        }
-        else if ([subview isKindOfClass:[UITextField class]]) {
-            self.monkeyId = @"Input";
-        }
-        else if ([subview isKindOfClass:[UIPickerView class]]) {
-            self.monkeyId = @"ItemSelector";
-        }
-        else if ([subview isKindOfClass:[UILabel class]]) {
-            self.monkeyId = @"Label";
-        }
-        else if ([subview isKindOfClass:[UITabBar class]]) {
-            self.monkeyId = @"TabBar"; //Menue
-        }
-        else if ([subview isKindOfClass:[UISlider class]]) {
-            self.monkeyId = @"Slider";
-        }
-        else if ([subview isKindOfClass:[UIScrollView class]]) {
-            self.monkeyId = @"Scroller";
-        }
-        else if ([subview isKindOfClass:[UIStepper class]]) {
-            self.monkeyId = @"Stepper";
-        }
-        else if ([subview isKindOfClass:[UITableView class]]) {
-            self.monkeyId = @"Table";
-        }
-        else if ([subview isKindOfClass:[UITextView class]]) {
-            self.monkeyId = @"TextArea";
-        }
-        else if ([subview isKindOfClass:[UISwitch class]]) {
-            self.monkeyId = @"Toggle";
-        }
-        else if ([subview isKindOfClass:[UIToolbar class]]) {
-            self.monkeyId = @"ToolBar";
-        }
-        else if ([subview isKindOfClass:[UIWebView class]]) {
-            self.monkeyId = @"WebView";
-        }
-        else if ([subview isKindOfClass:[UIView class]]) {
-            self.monkeyId = @"View";
-        }
-//		([subview isKindOfClass:[UISearchBar class]])
-//		([subview isKindOfClass:[UIAlertView class]])
-//		([subview isKindOfClass:[UIActionSheet class]])
-//      ([subview isKindOfClass:[UITableViewCell class]])
-//		([subview isKindOfClass:[UINavigationBar class]])
-//		([subview isKindOfClass:[UIImageView class]])
-//		([subview isKindOfClass:[UIProgressView class]])
-//		([subview isKindOfClass:[UIActivityIndicatorView class]])
-			
-    
-        
-    //NSLog(@"monkeyId: %@\n", self.monkeyId);
-    //NSLog(@"monkeyCommand: %@\n", self.monkeyCommand);
-    
 }
 
 + (UIElement*)addUIElement:(id)_object {
@@ -458,9 +499,24 @@
 	element.objectClass = [element.object class];
     element.className = [NSString stringWithFormat:@"%@", element.objectClass];
     
+    UIView *customView = barButtonItem.customView;
+    UIImageView *imageView = ((UIImageView *)(barButtonItem.customView.subviews.lastObject));
     NSNumber *value = [barButtonItem valueForKey:@"systemItem"];
+    
     if (barButtonItem.title && ![barButtonItem.title isEqualToString:@""])
         element.monkeyId = barButtonItem.title;
+    
+    else if (barButtonItem.accessibilityLabel && ![barButtonItem.accessibilityLabel isEqualToString:@""])
+        element.monkeyId = barButtonItem.accessibilityLabel;
+    
+    else if (customView.accessibilityLabel && ![customView.accessibilityLabel isEqualToString:@""])
+        element.monkeyId = customView.accessibilityLabel;
+    
+    else if (imageView.accessibilityLabel && ![imageView.accessibilityLabel isEqualToString:@""]) {
+        NSString * newString = [imageView.accessibilityLabel stringByReplacingOccurrencesOfString:@"_" withString:@" "];
+        element.monkeyId = [newString stringByReplacingOccurrencesOfString:@".png" withString:@""];
+    }
+    
     else if (value) {
         UIBarButtonSystemItem systemItemOut = [value integerValue];
         if (systemItemOut == UIBarButtonSystemItemDone) element.monkeyId = @"Done";
@@ -489,8 +545,8 @@
         else if (systemItemOut == UIBarButtonSystemItemPageCurl) element.monkeyId = @"Curl";
     }
     else
-         element.monkeyId = [barButtonItem accessibilityLabel];
-//element.monkeyId = [[barButtonItem accessibilityLabel] isEqualToString:@""] ? barButtonItem.title : [barButtonItem accessibilityLabel];
+         element.monkeyId = @"ERROR";
+
     element.monkeyCommand = [NSString stringWithFormat:@"Button \"%@\" Tap", element.monkeyId];
     
 	return element;
@@ -504,24 +560,21 @@
 	element.object = (UIView*)thisBackButtonView;
 	element.objectClass = [element.object class]; 
     element.className = [NSString stringWithFormat:@"%@", element.objectClass];
-    [element setMonkeyIdForView:(UIView*)thisBackButtonView];
+    
+    UINavigationItem *item = (UINavigationItem*)thisBackButtonView;
+    
+    if (thisBackButtonView.accessibilityLabel && ![thisBackButtonView.accessibilityLabel isEqualToString:@""])
+        element.monkeyId = thisBackButtonView.accessibilityLabel;
+    
+    else if (item.title && ![item.title isEqualToString:@""])
+        element.monkeyId = item.title;
+    
+    else if (item.accessibilityLabel && ![item.accessibilityLabel isEqualToString:@""])
+        element.monkeyId = item.accessibilityLabel;
+    
+    element.monkeyCommand = [NSString stringWithFormat:@"Button \"%@\" Tap", element.monkeyId];
+    
 	return element;
 }
-
-//+ (void)addCustomAccessibilityLabelForElement:(UIElement*)element withView:(UIView*)subview {
-//	
-//	Class _objectClass = [subview class];
-//    subview.isAccessibilityElement = YES;
-//    NSString *monkeyId;
-//    
-//    //    if (![subview accessibilityLabel] || [[subview accessibilityLabel] isEqualToString:@""])
-//    //        object_setIvar(subview, (Ivar)subview.accessibilityLabel, @"mona");
-//    
-//    if ([[subview accessibilityLabel] isEqualToString:@""]) {
-//        monkeyId = [NSString stringWithFormat:@"MonkeyID%d_%@_%@", [ICrawlerController sharedICrawler].monkeyID++, _objectClass, element.action];
-//        [subview setValue:monkeyId forKey:@"accessibilityLabel"];
-//    }
-//}
-
 
 @end

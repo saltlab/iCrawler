@@ -11,6 +11,7 @@
 #import "GraphNode.h"
 #import "SparseGraph.h"
 #import "OutputComponent.h"
+#import "ICrawlerController.h"
 
 @interface SparseGraph()
 // returns true if the edge is not present in the graph. 
@@ -335,14 +336,16 @@
 }
 
 - (NSMutableString*)print:(NSMutableString*)outputString {
-
+    
     NSUInteger count = 0;
     for (NSArray *edges in nodeEdges) {
         [outputString appendFormat:@"\n\n node %d", count];
-        //NSLog(@"node %d", count);
+        
         for (GraphEdge *edge in edges) {
-            [outputString appendFormat:@"\n %d=>%d with command: %@", edge.from, edge.to, edge.monkeyCommand];
-            //NSLog(@"%d=>%d", edge.from, edge.to);
+            //[[[ICrawlerController sharedICrawler] edgesCommands] addObject:edge.monkeyCommand];
+            NSString* dummy = [NSString stringWithFormat:@"%d->%d: %@", edge.from, edge.to, edge.monkeyCommand];
+            [[[ICrawlerController sharedICrawler] edgesCommands] addObject:dummy];
+            [outputString appendFormat:@"\n e%d: %@", [[[ICrawlerController sharedICrawler] edgesCommands] indexOfObject:dummy]+1, dummy];
         }
         count++;
     }
