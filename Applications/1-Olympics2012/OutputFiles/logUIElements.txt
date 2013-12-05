@@ -1,0 +1,1803 @@
+
+
+** UITabBar details in UITabBarController in State: S0:
+** UITabBar : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 431}, {320, 49}} | bounds: {{0, 0}, {320, 49}} | center: {160, 455.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleWidthMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 0 G: 0 B: 0 A: 0.00
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UITabBar Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 431}, {320, 49}}
+
+
+
+** UIScrollView details in Events in State: S1:
+** UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, -5}, {320, 2100}} | bounds: {{-0, 1660}, {320, 2100}} | center: {160, 1045}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: YES
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x76ddb20; state = Possible; delaysTouchesBegan = YES; view = <UIScrollView 0x76dd3b0>; target= <(action=delayed:, target=<UIScrollView 0x76dd3b0>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x76de170; state = Possible; delaysTouchesEnded = NO; view = <UIScrollView 0x76dd3b0>; target= <(action=handlePan:, target=<UIScrollView 0x76dd3b0>)>>"
+)
+
+  ** UIScrollView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{-0, 1660}, {320, 2100}}
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 20}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 70.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: archery
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoArchery
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 20}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 70.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: athletics
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoAthletics
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 129}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 179.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: badminton
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoBadminton
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 129}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 179.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: basketball
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoBasketball
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 238}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 288.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: beach volleyball
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoBeach
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 238}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 288.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: boxing
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoBoxing
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 347}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 397.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: canoe slalom
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoCanoe1
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 347}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 397.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: canoe sprint
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoCanoe2
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 456}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 506.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: cycling bmx
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoCycling1
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 456}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 506.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: cycling mountain bike
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoCycling2
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 565}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 615.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: cycling road
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoCycling3
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 565}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 615.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: cycling track
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoCycling4
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 674}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 724.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: diving
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoDiving
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 674}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 724.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: equestrian dressage
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoEquestrian1
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 783}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 833.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: equestrian eventing
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoEquestrian2
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 783}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 833.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: equestrian jumping
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoEquestrian3
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 892}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 942.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: fencing
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoFencing
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 892}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 942.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: football
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoFootball
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 1001}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 1051.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: gymnastics artistic
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoGymnastics1
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 1001}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 1051.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: gymnastics rhythmic
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoGymnastics2
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 1110}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 1160.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: gymnastics trampoline
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoGymnastics3
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 1110}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 1160.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: handball
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoHandball
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 1219}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 1269.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: hockey
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoHockey
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 1219}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 1269.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: judo
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoJudo
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 1328}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 1378.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: modern pentathlon
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoModern
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 1328}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 1378.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: rowing
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoRowing
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 1437}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 1487.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: sailing
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoSailing
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 1437}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 1487.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: shooting
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoShooting
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 1546}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 1596.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: swimming
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoSwimming
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 1546}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 1596.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: synchronised swimming
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoSynchronisedSwimming
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 1655}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 1705.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: table tennis
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoTableTennis
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 1655}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 1705.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: taekwondo
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoTaekwondo
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 1764}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 1814.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: tennis
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoTennis
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 1764}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 1814.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: triathlon
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoTriathlon
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 1873}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 1923.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: volleyball
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoVolleyball
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 1873}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 1923.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: water polo
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoWaterPolo
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 1982}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 2032.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: weightlifting
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoWeightlifting
+
+
+
+** UIButton details in Events in State: S1:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{199, 1982}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {249.5, 2032.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: wrestling
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+  ** Targets & Actions **
+    target: <Main: 0x76bd620; frame = (0 0; 320 431); autoresize = W+H; layer = <CALayer: 0x76bd6d0>> action: gotoWrestling
+
+
+
+** UIImageView details in Events in State: S1:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{315, 2093}, {5, 7}} | bounds: {{0, 0}, {5, 7}} | center: {317.5, 2096.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleLeftMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0.498}, {1, 0.004}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {5, 7}}
+
+
+
+** UIImageView details in Events in State: S1:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{313, 2095}, {7, 5}} | bounds: {{0, 0}, {7, 5}} | center: {316.5, 2097.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0.498, 0}, {0.004, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {7, 5}}
+
+
+
+** UIScrollView details in Events in State: S2:
+** UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 35}, {320, 2750}} | bounds: {{0, 0}, {320, 2750}} | center: {160, 1410}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleWidthMargin | UIViewAutoresizingFlexibleHeightMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 253 G: 250 B: 256 A: 1.00
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: YES
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x72733e0; state = Possible; delaysTouchesBegan = YES; view = <UIScrollView 0x76de840>; target= <(action=delayed:, target=<UIScrollView 0x76de840>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x72734e0; state = Possible; delaysTouchesEnded = NO; view = <UIScrollView 0x76de840>; target= <(action=handlePan:, target=<UIScrollView 0x76de840>)>>"
+)
+
+  ** UIScrollView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {320, 2750}}
+
+
+
+** UIImageView details in Events in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 20}, {101, 101}} | bounds: {{0, 0}, {101, 101}} | center: {70.5, 70.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: /Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/2012 Olympics.app/archery.gif
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {101, 101}}
+
+
+
+** UILabel details in Events in State: S2:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{129, 20}, {171, 101}} | bounds: {{0, 0}, {171, 101}} | center: {214.5, 70.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeLeft | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: 
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {171, 101}}
+
+
+
+** UITextView details in Events in State: S2:
+** UITextView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 129}, {280, 145}} | bounds: {{0, 0}, {280, 145}} | center: {160, 201.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 256 G: 256 B: 256 A: 1.00
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: YES
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x76e73c0; state = Possible; delaysTouchesBegan = YES; view = <UITextView 0x82a9000>; target= <(action=delayed:, target=<UITextView 0x82a9000>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x76e74f0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82a9000>; target= <(action=handlePan:, target=<UITextView 0x82a9000>)>>",
+    "<UITextTapRecognizer: 0x7270870; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82a9000>; target= <(action=oneFingerTapInUneditable:, target=<UITextInteractionAssistant 0x76f4870>)>>",
+    "<UITextTapRecognizer: 0x7271120; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82a9000>; target= <(action=doubleTapInUneditable:, target=<UITextInteractionAssistant 0x76f4870>)>; numberOfTapsRequired = 2>",
+    "<UILongPressGestureRecognizer: 0x7271230; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82a9000>; target= <(action=loupeGesture:, target=<UITextInteractionAssistant 0x76f4870>)>>",
+    "<UITextTapRecognizer: 0x7271390; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82a9000>; target= <(action=twoFingerSingleTap:, target=<UITextInteractionAssistant 0x76f4870>)>; numberOfTouchesRequired = 2>",
+    "<UITapAndAHalfRecognizer: 0x72714b0; state = Possible; view = <UITextView 0x82a9000>; target= <(action=tapAndAHalf:, target=<UITextInteractionAssistant 0x76f4870>)>>",
+    "<UILongPressGestureRecognizer: 0x7271570; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82a9000>; target= <(action=twoFingerRangedSelectGesture:, target=<UITextInteractionAssistant 0x76f4870>)>>",
+    "<UITextTapRecognizer: 0x72716d0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82a9000>; target= <(action=oneFingerTripleTap:, target=<UITextInteractionAssistant 0x76f4870>)>; numberOfTapsRequired = 3>"
+)
+
+  ** UITextView Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: 
+    frame: {{0, 0}, {280, 7.5}}
+
+
+
+** UIImageView details in Events in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 138}, {280, 7}} | bounds: {{0, 0}, {280, 7}} | center: {140, 141.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0.498571, 0}, {0.00285714, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {280, 7}}
+
+
+
+** UIImageView details in Events in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{273, 3}, {7, 142}} | bounds: {{0, 0}, {7, 142}} | center: {276.5, 74}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleLeftMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0.498571}, {1, 0.00285714}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {7, 142}}
+
+
+
+** UILabel details in Events in State: S2:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 706}, {107, 32}} | bounds: {{0, 0}, {107, 32}} | center: {73.5, 722}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeLeft | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: The basics
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {107, 32}}
+
+
+
+** UILabel details in Events in State: S2:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 282}, {107, 32}} | bounds: {{0, 0}, {107, 32}} | center: {73.5, 298}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeLeft | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Key Facts
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {107, 32}}
+
+
+
+** UILabel details in Events in State: S2:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 1065}, {272, 51}} | bounds: {{0, 0}, {272, 51}} | center: {156, 1090.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeLeft | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: 
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {272, 51}}
+
+
+
+** UITextView details in Events in State: S2:
+** UITextView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 746}, {280, 311}} | bounds: {{0, 0}, {280, 311}} | center: {160, 901.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 256 G: 256 B: 256 A: 1.00
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: YES
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x76f9620; state = Possible; delaysTouchesBegan = YES; view = <UITextView 0x82b0400>; target= <(action=delayed:, target=<UITextView 0x82b0400>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x76f9180; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b0400>; target= <(action=handlePan:, target=<UITextView 0x82b0400>)>>",
+    "<UITextTapRecognizer: 0x7271c30; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b0400>; target= <(action=oneFingerTapInUneditable:, target=<UITextInteractionAssistant 0x7630d90>)>>",
+    "<UITextTapRecognizer: 0x7271d10; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b0400>; target= <(action=doubleTapInUneditable:, target=<UITextInteractionAssistant 0x7630d90>)>; numberOfTapsRequired = 2>",
+    "<UILongPressGestureRecognizer: 0x7271e20; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b0400>; target= <(action=loupeGesture:, target=<UITextInteractionAssistant 0x7630d90>)>>",
+    "<UITextTapRecognizer: 0x7271f80; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b0400>; target= <(action=twoFingerSingleTap:, target=<UITextInteractionAssistant 0x7630d90>)>; numberOfTouchesRequired = 2>",
+    "<UITapAndAHalfRecognizer: 0x72720a0; state = Possible; view = <UITextView 0x82b0400>; target= <(action=tapAndAHalf:, target=<UITextInteractionAssistant 0x7630d90>)>>",
+    "<UILongPressGestureRecognizer: 0x7272160; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b0400>; target= <(action=twoFingerRangedSelectGesture:, target=<UITextInteractionAssistant 0x7630d90>)>>",
+    "<UITextTapRecognizer: 0x72722c0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b0400>; target= <(action=oneFingerTripleTap:, target=<UITextInteractionAssistant 0x7630d90>)>; numberOfTapsRequired = 3>"
+)
+
+  ** UITextView Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: 
+    frame: {{0, 0}, {280, 7.5}}
+
+
+
+** UIImageView details in Events in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 304}, {280, 7}} | bounds: {{0, 0}, {280, 7}} | center: {140, 307.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0.498571, 0}, {0.00285714, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {280, 7}}
+
+
+
+** UIImageView details in Events in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{273, 0}, {7, 311}} | bounds: {{0, 0}, {7, 311}} | center: {276.5, 155.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleLeftMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0.498571}, {1, 0.00285714}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {7, 311}}
+
+
+
+** UITextView details in Events in State: S2:
+** UITextView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 1124}, {280, 223}} | bounds: {{0, 0}, {280, 223}} | center: {160, 1235.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 256 G: 256 B: 256 A: 1.00
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: YES
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x7630920; state = Possible; delaysTouchesBegan = YES; view = <UITextView 0x82b2c00>; target= <(action=delayed:, target=<UITextView 0x82b2c00>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x762eec0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b2c00>; target= <(action=handlePan:, target=<UITextView 0x82b2c00>)>>",
+    "<UITextTapRecognizer: 0x72727f0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b2c00>; target= <(action=oneFingerTapInUneditable:, target=<UITextInteractionAssistant 0x762c7e0>)>>",
+    "<UITextTapRecognizer: 0x72728d0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b2c00>; target= <(action=doubleTapInUneditable:, target=<UITextInteractionAssistant 0x762c7e0>)>; numberOfTapsRequired = 2>",
+    "<UILongPressGestureRecognizer: 0x72729e0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b2c00>; target= <(action=loupeGesture:, target=<UITextInteractionAssistant 0x762c7e0>)>>",
+    "<UITextTapRecognizer: 0x7272b40; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b2c00>; target= <(action=twoFingerSingleTap:, target=<UITextInteractionAssistant 0x762c7e0>)>; numberOfTouchesRequired = 2>",
+    "<UITapAndAHalfRecognizer: 0x7272c60; state = Possible; view = <UITextView 0x82b2c00>; target= <(action=tapAndAHalf:, target=<UITextInteractionAssistant 0x762c7e0>)>>",
+    "<UILongPressGestureRecognizer: 0x7272d20; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b2c00>; target= <(action=twoFingerRangedSelectGesture:, target=<UITextInteractionAssistant 0x762c7e0>)>>",
+    "<UITextTapRecognizer: 0x7272e80; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b2c00>; target= <(action=oneFingerTripleTap:, target=<UITextInteractionAssistant 0x762c7e0>)>; numberOfTapsRequired = 3>"
+)
+
+  ** UITextView Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: 
+    frame: {{0, 0}, {280, 7.5}}
+
+
+
+** UIImageView details in Events in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 216}, {280, 7}} | bounds: {{0, 0}, {280, 7}} | center: {140, 219.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0.498571, 0}, {0.00285714, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {280, 7}}
+
+
+
+** UIImageView details in Events in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{273, 0}, {7, 223}} | bounds: {{0, 0}, {7, 223}} | center: {276.5, 111.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleLeftMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0.498571}, {1, 0.00285714}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {7, 223}}
+
+
+
+** UITextView details in Events in State: S2:
+** UITextView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 322}, {280, 376}} | bounds: {{0, 0}, {280, 376}} | center: {160, 510}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 256 G: 256 B: 256 A: 1.00
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: YES
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x762c390; state = Possible; delaysTouchesBegan = YES; view = <UITextView 0x82b3e00>; target= <(action=delayed:, target=<UITextView 0x82b3e00>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x762a960; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b3e00>; target= <(action=handlePan:, target=<UITextView 0x82b3e00>)>>",
+    "<UITextTapRecognizer: 0x72700c0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b3e00>; target= <(action=oneFingerTapInUneditable:, target=<UITextInteractionAssistant 0x76282f0>)>>",
+    "<UITextTapRecognizer: 0x726feb0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b3e00>; target= <(action=doubleTapInUneditable:, target=<UITextInteractionAssistant 0x76282f0>)>; numberOfTapsRequired = 2>",
+    "<UILongPressGestureRecognizer: 0x7270180; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b3e00>; target= <(action=loupeGesture:, target=<UITextInteractionAssistant 0x76282f0>)>>",
+    "<UITextTapRecognizer: 0x72702c0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b3e00>; target= <(action=twoFingerSingleTap:, target=<UITextInteractionAssistant 0x76282f0>)>; numberOfTouchesRequired = 2>",
+    "<UITapAndAHalfRecognizer: 0x72703c0; state = Possible; view = <UITextView 0x82b3e00>; target= <(action=tapAndAHalf:, target=<UITextInteractionAssistant 0x76282f0>)>>",
+    "<UILongPressGestureRecognizer: 0x7270460; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b3e00>; target= <(action=twoFingerRangedSelectGesture:, target=<UITextInteractionAssistant 0x76282f0>)>>",
+    "<UITextTapRecognizer: 0x72705a0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x82b3e00>; target= <(action=oneFingerTripleTap:, target=<UITextInteractionAssistant 0x76282f0>)>; numberOfTapsRequired = 3>"
+)
+
+  ** UITextView Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: 
+    frame: {{0, 0}, {280, 7.5}}
+
+
+
+** UIImageView details in Events in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 369}, {280, 7}} | bounds: {{0, 0}, {280, 7}} | center: {140, 372.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0.498571, 0}, {0.00285714, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {280, 7}}
+
+
+
+** UIImageView details in Events in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{273, 0}, {7, 376}} | bounds: {{0, 0}, {7, 376}} | center: {276.5, 188}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleLeftMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0.498571}, {1, 0.00285714}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {7, 376}}
+
+
+
+** UIImageView details in Events in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{315, 2743}, {5, 7}} | bounds: {{0, 0}, {5, 7}} | center: {317.5, 2746.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleLeftMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0.498}, {1, 0.004}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {5, 7}}
+
+
+
+** UIImageView details in Events in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{313, 2745}, {7, 5}} | bounds: {{0, 0}, {7, 5}} | center: {316.5, 2747.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0.498, 0}, {0.004, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {7, 5}}
+
+
+
+** UIBarButtonItem details in Events in State: S2:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UILabel details in CountDown in State: S3:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 153}, {320, 110}} | bounds: {{0, 0}, {320, 110}} | center: {160, 208}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeLeft | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: 
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {320, 110}}
+
+
+
+** UITableView details in Schedule in State: S4:
+** UITableView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 0}, {320, 431}} | bounds: {{0, 10}, {320, 431}} | center: {160, 215.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleWidthMargin | UIViewAutoresizingFlexibleHeightMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: UIDeviceWhiteColorSpace 0 0 (incompatible color space)
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x8869ce0; state = Possible; delaysTouchesBegan = YES; view = <UITableView 0x9267600>; target= <(action=delayed:, target=<UITableView 0x9267600>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x8868890; state = Possible; delaysTouchesEnded = NO; view = <UITableView 0x9267600>; target= <(action=handlePan:, target=<UITableView 0x9267600>)>>",
+    "<UISwipeGestureRecognizer: 0x8865ac0; state = Possible; view = <UITableView 0x9267600>; target= <(action=handleSwipe:, target=<UITableView 0x9267600>)>; direction = right,left>",
+    "<UIGobblerGestureRecognizer: 0x8869bc0; state = Possible; enabled = NO; view = <UITableView 0x9267600>>"
+)
+
+  ** UITableView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Empty list
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 10}, {320, 431}}
+
+
+
+** UILabel details in Anthem in State: S5:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 0}, {320, 431}} | bounds: {{0, 0}, {320, 431}} | center: {160, 215.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeLeft | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Coming Soon
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {320, 431}}
+

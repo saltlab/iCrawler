@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<States>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>TabBar</ElementId>
+		<ElementCommand></ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/52319A68-31C3-4AA3-84AF-F1AFB3046D7D/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>Scroller</ElementId>
+		<ElementCommand></ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/52319A68-31C3-4AA3-84AF-F1AFB3046D7D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>Scroller</ElementId>
+		<ElementCommand></ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/52319A68-31C3-4AA3-84AF-F1AFB3046D7D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>dismissAction:</Edge>
+		<ElementId>Done</ElementId>
+		<ElementCommand>Button &quot;Done&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/52319A68-31C3-4AA3-84AF-F1AFB3046D7D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>UndefinedBackButtonItem</Edge>
+		<ElementId>View</ElementId>
+		<ElementCommand></ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/52319A68-31C3-4AA3-84AF-F1AFB3046D7D/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State3</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>TabBar</ElementId>
+		<ElementCommand></ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/52319A68-31C3-4AA3-84AF-F1AFB3046D7D/Library/Caches/Screenshots/S3.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State3</PreviousState>
+		<CurrentState>State4</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>Scroller</ElementId>
+		<ElementCommand></ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/52319A68-31C3-4AA3-84AF-F1AFB3046D7D/Library/Caches/Screenshots/S4.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State4</PreviousState>
+		<CurrentState>State3</CurrentState>
+		<Edge>doneAction:</Edge>
+		<ElementId>left</ElementId>
+		<ElementCommand>Button &quot;left&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/52319A68-31C3-4AA3-84AF-F1AFB3046D7D/Library/Caches/Screenshots/S3.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State3</PreviousState>
+		<CurrentState>State5</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>TabBar</ElementId>
+		<ElementCommand></ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/52319A68-31C3-4AA3-84AF-F1AFB3046D7D/Library/Caches/Screenshots/S5.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State5</PreviousState>
+		<CurrentState>State6</CurrentState>
+		<Edge>WriteInUITextField</Edge>
+		<ElementId>Input</ElementId>
+		<ElementCommand></ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/52319A68-31C3-4AA3-84AF-F1AFB3046D7D/Library/Caches/Screenshots/S6.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State6</PreviousState>
+		<CurrentState>State7</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId></ElementId>
+		<ElementCommand>Button &quot;(null)&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/52319A68-31C3-4AA3-84AF-F1AFB3046D7D/Library/Caches/Screenshots/S7.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State7</PreviousState>
+		<CurrentState>State8</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>TabBar</ElementId>
+		<ElementCommand></ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/52319A68-31C3-4AA3-84AF-F1AFB3046D7D/Library/Caches/Screenshots/S8.jpg</ScreenshotPath>
+	</State>
+</States>

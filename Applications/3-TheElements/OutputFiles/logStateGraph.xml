@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<States>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>*</ElementId>
+		<ElementCommand>TabBar &quot;*&quot; Select &quot;1st Tab&quot;</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>Empty list</ElementId>
+		<ElementCommand>Table &quot;Empty list&quot; SelectIndex 1</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>flipper list blue</ElementId>
+		<ElementCommand>Button &quot;flipper list blue&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>jumpToWikipedia:</Edge>
+		<ElementId>View at Wikipedia</ElementId>
+		<ElementCommand>Button &quot;View at Wikipedia&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>Done</ElementId>
+		<ElementCommand>Button &quot;Done&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>UndefinedBackButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State3</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>*</ElementId>
+		<ElementCommand>TabBar &quot;*&quot; Select &quot;1st Tab&quot;</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S3.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State3</PreviousState>
+		<CurrentState>State4</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>Empty list</ElementId>
+		<ElementCommand>Table &quot;Empty list&quot; SelectIndex 1</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S4.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State4</PreviousState>
+		<CurrentState>State5</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>flipper list blue</ElementId>
+		<ElementCommand>Button &quot;flipper list blue&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S5.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State5</PreviousState>
+		<CurrentState>State5</CurrentState>
+		<Edge>jumpToWikipedia:</Edge>
+		<ElementId>View at Wikipedia</ElementId>
+		<ElementCommand>Button &quot;View at Wikipedia&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S5.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State5</PreviousState>
+		<CurrentState>State4</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>Done</ElementId>
+		<ElementCommand>Button &quot;Done&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S4.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State4</PreviousState>
+		<CurrentState>State3</CurrentState>
+		<Edge>UndefinedBackButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S3.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State3</PreviousState>
+		<CurrentState>State6</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>*</ElementId>
+		<ElementCommand>TabBar &quot;*&quot; Select &quot;1st Tab&quot;</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S6.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State6</PreviousState>
+		<CurrentState>State7</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>Empty list</ElementId>
+		<ElementCommand>Table &quot;Empty list&quot; SelectIndex 1</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S7.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State7</PreviousState>
+		<CurrentState>State8</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>flipper list blue</ElementId>
+		<ElementCommand>Button &quot;flipper list blue&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S8.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State8</PreviousState>
+		<CurrentState>State8</CurrentState>
+		<Edge>jumpToWikipedia:</Edge>
+		<ElementId>View at Wikipedia</ElementId>
+		<ElementCommand>Button &quot;View at Wikipedia&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S8.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State8</PreviousState>
+		<CurrentState>State7</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>Done</ElementId>
+		<ElementCommand>Button &quot;Done&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S7.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State7</PreviousState>
+		<CurrentState>State6</CurrentState>
+		<Edge>UndefinedBackButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S6.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State6</PreviousState>
+		<CurrentState>State9</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>*</ElementId>
+		<ElementCommand>TabBar &quot;*&quot; Select &quot;1st Tab&quot;</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S9.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State9</PreviousState>
+		<CurrentState>State10</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>Empty list</ElementId>
+		<ElementCommand>Table &quot;Empty list&quot; SelectIndex 1</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S10.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State10</PreviousState>
+		<CurrentState>State11</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>flipper list blue</ElementId>
+		<ElementCommand>Button &quot;flipper list blue&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S11.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State11</PreviousState>
+		<CurrentState>State11</CurrentState>
+		<Edge>jumpToWikipedia:</Edge>
+		<ElementId>View at Wikipedia</ElementId>
+		<ElementCommand>Button &quot;View at Wikipedia&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S11.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State11</PreviousState>
+		<CurrentState>State10</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>Done</ElementId>
+		<ElementCommand>Button &quot;Done&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S10.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State10</PreviousState>
+		<CurrentState>State9</CurrentState>
+		<Edge>UndefinedBackButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/03D0273F-6B12-47D0-9B99-48695808A9D4/Library/Caches/Screenshots/S9.jpg</ScreenshotPath>
+	</State>
+</States>

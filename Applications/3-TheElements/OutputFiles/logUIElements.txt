@@ -1,0 +1,731 @@
+
+
+** UITabBar details in UITabBarController in State: S0:
+** UITabBar : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 431}, {320, 49}} | bounds: {{0, 0}, {320, 49}} | center: {160, 455.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleWidthMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UITabBar Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 431}, {320, 49}}
+
+
+
+** UIImageView details in AtomicElementViewController in State: S1:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{32, 318}, {256, 89.6}} | bounds: {{0, 0}, {256, 89.6}} | center: {160, 362.8}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.50 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {256, 89.6}}
+
+
+
+** UIBarButtonItem details in AtomicElementViewController in State: S1:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UINavigationItemButtonView details in AtomicElementViewController in State: S1:
+** UINavigationItemButtonView : UINavigationItemView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{118.5, 7}, {49, 30}} | bounds: {{0, 0}, {49, 30}} | center: {143, 22}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeRedraw | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UINavigationItemButtonView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Back
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {49, 30}}
+
+
+
+** UIImageView details in AtomicElementViewController in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{32, 318}, {256, 89.6}} | bounds: {{0, 0}, {256, 89.6}} | center: {160, 362.8}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.50 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {256, 89.6}}
+
+
+
+** UIRoundedRectButton details in AtomicElementViewController in State: S2:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{10, 209}, {234, 37}} | bounds: {{0, 0}, {234, 37}} | center: {127, 227.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: View at Wikipedia
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {234, 37}}
+
+  ** Targets & Actions **
+    target: <AtomicElementFlippedView: 0x75df460; frame = (32 62; 256 256); layer = <CALayer: 0x75df510>> action: jumpToWikipedia:
+
+
+
+** UIBarButtonItem details in AtomicElementViewController in State: S2:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UINavigationItemButtonView details in AtomicElementViewController in State: S2:
+** UINavigationItemButtonView : UINavigationItemView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{118.5, 7}, {49, 30}} | bounds: {{0, 0}, {49, 30}} | center: {143, 22}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeRedraw | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UINavigationItemButtonView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Back
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {49, 30}}
+
+
+
+** UITableView details in ElementsTableViewController in State: S3:
+** UITableView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 0}, {320, 367}} | bounds: {{0, 0}, {320, 367}} | center: {160, 183.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleWidthMargin | UIViewAutoresizingFlexibleHeightMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 256 G: 256 B: 256 A: 1.00
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x75d6ca0; state = Possible; delaysTouchesBegan = YES; view = <UITableView 0x893f600>; target= <(action=delayed:, target=<UITableView 0x893f600>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x75ec410; state = Possible; delaysTouchesEnded = NO; view = <UITableView 0x893f600>; target= <(action=handlePan:, target=<UITableView 0x893f600>)>>",
+    "<UISwipeGestureRecognizer: 0x75d3d40; state = Possible; view = <UITableView 0x893f600>; target= <(action=handleSwipe:, target=<UITableView 0x893f600>)>; direction = right,left>",
+    "<UIGobblerGestureRecognizer: 0x75d7db0; state = Possible; enabled = NO; view = <UITableView 0x893f600>>"
+)
+
+  ** UITableView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Empty list
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {320, 367}}
+
+
+
+** UIImageView details in AtomicElementViewController in State: S4:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{32, 318}, {256, 89.6}} | bounds: {{0, 0}, {256, 89.6}} | center: {160, 362.8}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.50 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {256, 89.6}}
+
+
+
+** UIBarButtonItem details in AtomicElementViewController in State: S4:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UINavigationItemButtonView details in AtomicElementViewController in State: S4:
+** UINavigationItemButtonView : UINavigationItemView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{118.5, 7}, {49, 30}} | bounds: {{0, 0}, {49, 30}} | center: {143, 22}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeRedraw | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UINavigationItemButtonView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Back
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {49, 30}}
+
+
+
+** UIImageView details in AtomicElementViewController in State: S5:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{32, 318}, {256, 89.6}} | bounds: {{0, 0}, {256, 89.6}} | center: {160, 362.8}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.50 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {256, 89.6}}
+
+
+
+** UIRoundedRectButton details in AtomicElementViewController in State: S5:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{10, 209}, {234, 37}} | bounds: {{0, 0}, {234, 37}} | center: {127, 227.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: View at Wikipedia
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {234, 37}}
+
+  ** Targets & Actions **
+    target: <AtomicElementFlippedView: 0x75f4f90; frame = (32 62; 256 256); layer = <CALayer: 0x75f4ff0>> action: jumpToWikipedia:
+
+
+
+** UIBarButtonItem details in AtomicElementViewController in State: S5:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UINavigationItemButtonView details in AtomicElementViewController in State: S5:
+** UINavigationItemButtonView : UINavigationItemView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{118.5, 7}, {49, 30}} | bounds: {{0, 0}, {49, 30}} | center: {143, 22}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeRedraw | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UINavigationItemButtonView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Back
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {49, 30}}
+
+
+
+** UITableView details in ElementsTableViewController in State: S6:
+** UITableView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 0}, {320, 367}} | bounds: {{0, 0}, {320, 367}} | center: {160, 183.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleWidthMargin | UIViewAutoresizingFlexibleHeightMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 256 G: 256 B: 256 A: 1.00
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x807a560; state = Possible; delaysTouchesBegan = YES; view = <UITableView 0xd91e600>; target= <(action=delayed:, target=<UITableView 0xd91e600>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x808ab80; state = Possible; delaysTouchesEnded = NO; view = <UITableView 0xd91e600>; target= <(action=handlePan:, target=<UITableView 0xd91e600>)>>",
+    "<UISwipeGestureRecognizer: 0x808a4b0; state = Possible; view = <UITableView 0xd91e600>; target= <(action=handleSwipe:, target=<UITableView 0xd91e600>)>; direction = right,left>",
+    "<UIGobblerGestureRecognizer: 0x8079570; state = Possible; enabled = NO; view = <UITableView 0xd91e600>>"
+)
+
+  ** UITableView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Empty list
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {320, 367}}
+
+
+
+** UIImageView details in AtomicElementViewController in State: S7:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{32, 318}, {256, 89.6}} | bounds: {{0, 0}, {256, 89.6}} | center: {160, 362.8}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.50 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {256, 89.6}}
+
+
+
+** UIBarButtonItem details in AtomicElementViewController in State: S7:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UINavigationItemButtonView details in AtomicElementViewController in State: S7:
+** UINavigationItemButtonView : UINavigationItemView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{118, 7}, {49, 30}} | bounds: {{0, 0}, {49, 30}} | center: {142.5, 22}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeRedraw | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UINavigationItemButtonView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Back
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {49, 30}}
+
+
+
+** UIImageView details in AtomicElementViewController in State: S8:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{32, 318}, {256, 89.6}} | bounds: {{0, 0}, {256, 89.6}} | center: {160, 362.8}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.50 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {256, 89.6}}
+
+
+
+** UIRoundedRectButton details in AtomicElementViewController in State: S8:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{10, 209}, {234, 37}} | bounds: {{0, 0}, {234, 37}} | center: {127, 227.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: View at Wikipedia
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {234, 37}}
+
+  ** Targets & Actions **
+    target: <AtomicElementFlippedView: 0x808c300; frame = (32 62; 256 256); layer = <CALayer: 0x808f950>> action: jumpToWikipedia:
+
+
+
+** UIBarButtonItem details in AtomicElementViewController in State: S8:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UINavigationItemButtonView details in AtomicElementViewController in State: S8:
+** UINavigationItemButtonView : UINavigationItemView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{118, 7}, {49, 30}} | bounds: {{0, 0}, {49, 30}} | center: {142.5, 22}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeRedraw | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UINavigationItemButtonView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Back
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {49, 30}}
+
+
+
+** UITableView details in ElementsTableViewController in State: S9:
+** UITableView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 0}, {320, 367}} | bounds: {{0, 0}, {320, 367}} | center: {160, 183.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleWidthMargin | UIViewAutoresizingFlexibleHeightMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 256 G: 256 B: 256 A: 1.00
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x75fa350; state = Possible; delaysTouchesBegan = YES; view = <UITableView 0x894da00>; target= <(action=delayed:, target=<UITableView 0x894da00>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x75fbfd0; state = Possible; delaysTouchesEnded = NO; view = <UITableView 0x894da00>; target= <(action=handlePan:, target=<UITableView 0x894da00>)>>",
+    "<UISwipeGestureRecognizer: 0x75fb480; state = Possible; view = <UITableView 0x894da00>; target= <(action=handleSwipe:, target=<UITableView 0x894da00>)>; direction = right,left>",
+    "<UIGobblerGestureRecognizer: 0x75fbd50; state = Possible; enabled = NO; view = <UITableView 0x894da00>>"
+)
+
+  ** UITableView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Empty list
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 64}, {320, 367}}
+
+
+
+** UIImageView details in AtomicElementViewController in State: S10:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{32, 318}, {256, 89.6}} | bounds: {{0, 0}, {256, 89.6}} | center: {160, 362.8}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.50 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {256, 89.6}}
+
+
+
+** UIBarButtonItem details in AtomicElementViewController in State: S10:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UINavigationItemButtonView details in AtomicElementViewController in State: S10:
+** UINavigationItemButtonView : UINavigationItemView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{118.5, 7}, {49, 30}} | bounds: {{0, 0}, {49, 30}} | center: {143, 22}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeRedraw | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UINavigationItemButtonView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Back
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {49, 30}}
+
+
+
+** UIImageView details in AtomicElementViewController in State: S11:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{32, 318}, {256, 89.6}} | bounds: {{0, 0}, {256, 89.6}} | center: {160, 362.8}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.50 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {256, 89.6}}
+
+
+
+** UIRoundedRectButton details in AtomicElementViewController in State: S11:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{10, 209}, {234, 37}} | bounds: {{0, 0}, {234, 37}} | center: {127, 227.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: View at Wikipedia
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {234, 37}}
+
+  ** Targets & Actions **
+    target: <AtomicElementFlippedView: 0x8094410; frame = (32 62; 256 256); layer = <CALayer: 0x8094470>> action: jumpToWikipedia:
+
+
+
+** UIBarButtonItem details in AtomicElementViewController in State: S11:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UINavigationItemButtonView details in AtomicElementViewController in State: S11:
+** UINavigationItemButtonView : UINavigationItemView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{118.5, 7}, {49, 30}} | bounds: {{0, 0}, {49, 30}} | center: {143, 22}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeRedraw | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UINavigationItemButtonView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Back
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {49, 30}}
+

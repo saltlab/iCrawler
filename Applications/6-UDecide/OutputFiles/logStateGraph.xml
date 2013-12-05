@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<States>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>yesNo</Edge>
+		<ElementId>Yes / No</ElementId>
+		<ElementCommand>Button &quot;Yes / No&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B98195A5-CFF5-4B8B-9212-D136F229F8D8/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>abcd</Edge>
+		<ElementId>A / B / C / D</ElementId>
+		<ElementCommand>Button &quot;A / B / C / D&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B98195A5-CFF5-4B8B-9212-D136F229F8D8/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>oneToHundred</Edge>
+		<ElementId>1 - 100</ElementId>
+		<ElementCommand>Button &quot;1 - 100&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B98195A5-CFF5-4B8B-9212-D136F229F8D8/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>leftCenterRight</Edge>
+		<ElementId>Left/Center/Right</ElementId>
+		<ElementCommand>Button &quot;Left/Center/Right&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B98195A5-CFF5-4B8B-9212-D136F229F8D8/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>lottery</Edge>
+		<ElementId>Buy / Sell / Hold</ElementId>
+		<ElementCommand>Button &quot;Buy / Sell / Hold&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B98195A5-CFF5-4B8B-9212-D136F229F8D8/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>agreeDisagree</Edge>
+		<ElementId>Agree / Disagree</ElementId>
+		<ElementCommand>Button &quot;Agree / Disagree&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B98195A5-CFF5-4B8B-9212-D136F229F8D8/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>headsTails</Edge>
+		<ElementId>Heads / Tails</ElementId>
+		<ElementCommand>Button &quot;Heads / Tails&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B98195A5-CFF5-4B8B-9212-D136F229F8D8/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>russianRoulette</Edge>
+		<ElementId>Russian Roulette</ElementId>
+		<ElementCommand>Button &quot;Russian Roulette&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B98195A5-CFF5-4B8B-9212-D136F229F8D8/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>positiveNegative</Edge>
+		<ElementId>Positive/Negative</ElementId>
+		<ElementCommand>Button &quot;Positive/Negative&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B98195A5-CFF5-4B8B-9212-D136F229F8D8/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>trueFalse</Edge>
+		<ElementId>True / False</ElementId>
+		<ElementCommand>Button &quot;True / False&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B98195A5-CFF5-4B8B-9212-D136F229F8D8/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>toggleView</Edge>
+		<ElementId>0</ElementId>
+		<ElementCommand>Button &quot;0&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B98195A5-CFF5-4B8B-9212-D136F229F8D8/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>Done</ElementId>
+		<ElementCommand>Button &quot;Done&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B98195A5-CFF5-4B8B-9212-D136F229F8D8/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+</States>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<States>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>Empty list</ElementId>
+		<ElementCommand>Table &quot;Empty list&quot; SelectIndex 1</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/A20E53BB-394A-411A-B230-9B64192B285E/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>Empty list</ElementId>
+		<ElementCommand>Table &quot;Empty list&quot; SelectIndex 1</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/A20E53BB-394A-411A-B230-9B64192B285E/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>UndefinedBackButtonItem</Edge>
+		<ElementId>Recipe</ElementId>
+		<ElementCommand>Button &quot;Recipe&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/A20E53BB-394A-411A-B230-9B64192B285E/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>UndefinedBackButtonItem</Edge>
+		<ElementId>Recipes</ElementId>
+		<ElementCommand>Button &quot;Recipes&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/A20E53BB-394A-411A-B230-9B64192B285E/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+</States>

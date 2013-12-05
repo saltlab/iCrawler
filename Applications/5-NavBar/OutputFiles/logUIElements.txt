@@ -1,0 +1,222 @@
+
+
+** UITableView details in MainViewController in State: S0:
+** UITableView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 0}, {320, 416}} | bounds: {{0, 0}, {320, 416}} | center: {160, 208}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleWidthMargin | UIViewAutoresizingFlexibleHeightMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 256 G: 256 B: 256 A: 1.00
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x764c240; state = Possible; delaysTouchesBegan = YES; view = <UITableView 0x999e000>; target= <(action=delayed:, target=<UITableView 0x999e000>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x764c850; state = Possible; delaysTouchesEnded = NO; view = <UITableView 0x999e000>; target= <(action=handlePan:, target=<UITableView 0x999e000>)>>",
+    "<UISwipeGestureRecognizer: 0x764ace0; state = Possible; view = <UITableView 0x999e000>; target= <(action=handleSwipe:, target=<UITableView 0x999e000>)>; direction = right,left>",
+    "<UIGobblerGestureRecognizer: 0x76685f0; state = Possible; enabled = NO; view = <UITableView 0x999e000>>"
+)
+
+  ** UITableView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Empty list
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 64}, {320, 416}}
+
+
+
+** UIBarButtonItem details in MainViewController in State: S0:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UIBarButtonItem details in MainViewController in State: S0:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UIImageView details in PageOneViewController in State: S1:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, -1}, {320, 417}} | bounds: {{0, 0}, {320, 417}} | center: {160, 207.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Page1.png
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {320, 417}}
+
+
+
+** UIBarButtonItem details in PageOneViewController in State: S1:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UINavigationItemButtonView details in PageOneViewController in State: S1:
+** UINavigationItemButtonView : UINavigationItemView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{111.5, 7}, {63, 30}} | bounds: {{0, 0}, {63, 30}} | center: {143, 22}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeRedraw | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UINavigationItemButtonView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: NavBar
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {63, 30}}
+
+
+
+** UILabel details in ModalViewController in State: S2:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{24, 49}, {280, 26}} | bounds: {{0, 0}, {280, 26}} | center: {164, 62}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: NavBar
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {280, 26}}
+
+
+
+** UILabel details in ModalViewController in State: S2:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{24, 82}, {280, 26}} | bounds: {{0, 0}, {280, 26}} | center: {164, 95}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Copyright © 2008-2012, Apple Inc.
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {280, 26}}
+
+
+
+** UIRoundedRectButton details in ModalViewController in State: S2:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{122, 113}, {83, 37}} | bounds: {{0, 0}, {83, 37}} | center: {163.5, 131.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Done
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {83, 37}}
+
+  ** Targets & Actions **
+    target: <ModalViewController: 0x7627c50> action: dismissAction:
+
+
+
+** UILabel details in ModalViewController in State: S2:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 20}, {288, 21}} | bounds: {{0, 0}, {288, 21}} | center: {164, 30.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: (Presented as a modal-style UIViewController)
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {288, 21}}
+

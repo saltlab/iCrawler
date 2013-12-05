@@ -1,0 +1,45 @@
+
+
+** Graph:
+ node 0
+ 0=>0
+ 0=>1
+ 0=>3
+ node 1
+ 1=>2
+ 1=>0
+ node 2
+ 2=>1
+ node 3
+ 3=>4
+ 3=>5
+ node 4
+ 4=>3
+ node 5
+ 5=>6
+ node 6
+ 6=>7
+ node 7
+ 7=>8
+ node 8
+
+
+** Path:
+ DFS path to node 1 is 0 => 1 
+ BFS path to node 1 is 0 => 1 
+ DFS path to node 2 is 0 => 1 => 2 
+ BFS path to node 2 is 0 => 1 => 2 
+ DFS path to node 3 is 0 => 3 
+ BFS path to node 3 is 0 => 3 
+ DFS path to node 4 is 0 => 3 => 4 
+ BFS path to node 4 is 0 => 3 => 4 
+ DFS path to node 5 is 0 => 3 => 5 
+ BFS path to node 5 is 0 => 3 => 5 
+ DFS path to node 6 is 0 => 3 => 5 => 6 
+ BFS path to node 6 is 0 => 3 => 5 => 6 
+ DFS path to node 7 is 0 => 3 => 5 => 6 => 7 
+ BFS path to node 7 is 0 => 3 => 5 => 6 => 7 
+ DFS path to node 8 is 0 => 3 => 5 => 6 => 7 => 8 
+ BFS path to node 8 is 0 => 3 => 5 => 6 => 7 => 8 
+
+**

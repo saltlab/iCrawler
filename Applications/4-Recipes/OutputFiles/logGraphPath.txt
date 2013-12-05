@@ -1,0 +1,31 @@
+
+
+** Graph with 3 nodes and 4 edges
+
+ node 0
+ e1: 0->1: Table "Empty list" SelectIndex 1
+
+ node 1
+ e2: 1->2: Table "Empty list" SelectIndex 1
+ e3: 1->0: Button "Recipes" Tap
+
+ node 2
+ e4: 2->1: Button "Recipe" Tap
+
+**
+
+
+** Test Scripts:
+
+   To state 0:   >
+
+   To state 0:   >
+
+   To state 1:  < e1 >
+
+   To state 1:  < e1 >
+
+   To state 2:  < e1, e2 >
+
+   To state 2:  < e1, e2 >
+**

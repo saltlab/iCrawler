@@ -1,0 +1,186 @@
+
+
+** UITableView details in RecipeListTableViewController in State: S0:
+** UITableView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 0}, {320, 416}} | bounds: {{0, 0}, {320, 416}} | center: {160, 208}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleWidthMargin | UIViewAutoresizingFlexibleHeightMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 256 G: 256 B: 256 A: 1.00
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x75323c0; state = Possible; delaysTouchesBegan = YES; view = <UITableView 0x80f8e00>; target= <(action=delayed:, target=<UITableView 0x80f8e00>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x7532a50; state = Possible; delaysTouchesEnded = NO; view = <UITableView 0x80f8e00>; target= <(action=handlePan:, target=<UITableView 0x80f8e00>)>>",
+    "<UISwipeGestureRecognizer: 0x7532f20; state = Possible; view = <UITableView 0x80f8e00>; target= <(action=handleSwipe:, target=<UITableView 0x80f8e00>)>; direction = right,left>",
+    "<UIGobblerGestureRecognizer: 0x7533210; state = Possible; enabled = NO; view = <UITableView 0x80f8e00>>"
+)
+
+  ** UITableView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Empty list
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 64}, {320, 416}}
+
+
+
+** UITableView details in RecipeDetailViewController in State: S1:
+** UITableView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 0}, {320, 416}} | bounds: {{0, 64}, {320, 416}} | center: {160, 208}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleWidthMargin | UIViewAutoresizingFlexibleHeightMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: UIDeviceWhiteColorSpace 0 0 (incompatible color space)
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x72386c0; state = Possible; delaysTouchesBegan = YES; view = <UITableView 0x791d600>; target= <(action=delayed:, target=<UITableView 0x791d600>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x72397b0; state = Possible; delaysTouchesEnded = NO; view = <UITableView 0x791d600>; target= <(action=handlePan:, target=<UITableView 0x791d600>)>>",
+    "<UISwipeGestureRecognizer: 0x723a200; state = Possible; view = <UITableView 0x791d600>; target= <(action=handleSwipe:, target=<UITableView 0x791d600>)>; direction = right,left>",
+    "<UIGobblerGestureRecognizer: 0x72607e0; state = Possible; enabled = NO; view = <UITableView 0x791d600>>"
+)
+
+  ** UITableView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Empty list
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 64}, {320, 416}}
+
+
+
+** UINavigationItemButtonView details in RecipeDetailViewController in State: S1:
+** UINavigationItemButtonView : UINavigationItemView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{109.5, 7}, {67, 30}} | bounds: {{0, 0}, {67, 30}} | center: {143, 22}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeRedraw | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UINavigationItemButtonView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Recipes
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {67, 30}}
+
+
+
+** UITextView details in InstructionsViewController in State: S2:
+** UITextView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 49}, {320, 367}} | bounds: {{0, 0}, {320, 367}} | center: {160, 232.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleWidthMargin | UIViewAutoresizingFlexibleHeightMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: YES
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x7563370; state = Possible; delaysTouchesBegan = YES; view = <UITextView 0x810f200>; target= <(action=delayed:, target=<UITextView 0x810f200>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x7524a90; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x810f200>; target= <(action=handlePan:, target=<UITextView 0x810f200>)>>",
+    "<UITextTapRecognizer: 0x75711e0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x810f200>; target= <(action=oneFingerTapInUneditable:, target=<UITextInteractionAssistant 0x756fd60>)>>",
+    "<UITextTapRecognizer: 0x7573380; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x810f200>; target= <(action=doubleTapInUneditable:, target=<UITextInteractionAssistant 0x756fd60>)>; numberOfTapsRequired = 2>",
+    "<UILongPressGestureRecognizer: 0x7570ea0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x810f200>; target= <(action=loupeGesture:, target=<UITextInteractionAssistant 0x756fd60>)>>",
+    "<UITextTapRecognizer: 0x75706f0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x810f200>; target= <(action=twoFingerSingleTap:, target=<UITextInteractionAssistant 0x756fd60>)>; numberOfTouchesRequired = 2>",
+    "<UITapAndAHalfRecognizer: 0x7570520; state = Possible; view = <UITextView 0x810f200>; target= <(action=tapAndAHalf:, target=<UITextInteractionAssistant 0x756fd60>)>>",
+    "<UILongPressGestureRecognizer: 0x7570bd0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x810f200>; target= <(action=twoFingerRangedSelectGesture:, target=<UITextInteractionAssistant 0x756fd60>)>>",
+    "<UITextTapRecognizer: 0x75731f0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x810f200>; target= <(action=oneFingerTripleTap:, target=<UITextInteractionAssistant 0x756fd60>)>; numberOfTapsRequired = 3>"
+)
+
+  ** UITextView Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: Mix the ingredients, bake and voilà!{
+    NSColor = "UIDeviceWhiteColorSpace 0 1";
+    NSFont = "<UICFFont: 0x7572990> font-family: \"Helvetica\"; font-weight: normal; font-style: normal; font-size: 14px";
+}
+    frame: {{0, 0}, {320, 27}}
+
+
+
+** UIImageView details in InstructionsViewController in State: S2:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{313, 181}, {7, 250}} | bounds: {{0, 0}, {7, 250}} | center: {316.5, 306}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleLeftMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0.498571}, {1, 0.00285714}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {7, 250}}
+
+
+
+** UILabel details in InstructionsViewController in State: S2:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 20}, {280, 21}} | bounds: {{0, 0}, {280, 21}} | center: {160, 30.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Cherry Cobbler
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {280, 21}}
+
+
+
+** __NSCFString details in InstructionsViewController in State: S2:
+** __NSCFString : NSMutableString : NSString : NSObject ** 
+
+  ** __NSCFString Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+

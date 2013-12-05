@@ -1,0 +1,105 @@
+
+
+** Graph with 12 nodes and 24 edges
+
+ node 0
+ e1: 0->0: TabBar "*" Select "1st Tab"
+ e2: 0->1: Table "Empty list" SelectIndex 1
+ e3: 0->3: TabBar "*" Select "1st Tab"
+
+ node 1
+ e4: 1->2: Button "flipper list blue" Tap
+ e5: 1->0: Button "Back" Tap
+
+ node 2
+ e6: 2->2: Button "View at Wikipedia" Tap
+ e7: 2->1: Button "Done" Tap
+
+ node 3
+ e8: 3->4: Table "Empty list" SelectIndex 1
+ e9: 3->6: TabBar "*" Select "1st Tab"
+
+ node 4
+ e10: 4->5: Button "flipper list blue" Tap
+ e11: 4->3: Button "Back" Tap
+
+ node 5
+ e12: 5->5: Button "View at Wikipedia" Tap
+ e13: 5->4: Button "Done" Tap
+
+ node 6
+ e14: 6->7: Table "Empty list" SelectIndex 1
+ e15: 6->9: TabBar "*" Select "1st Tab"
+
+ node 7
+ e16: 7->8: Button "flipper list blue" Tap
+ e17: 7->6: Button "Back" Tap
+
+ node 8
+ e18: 8->8: Button "View at Wikipedia" Tap
+ e19: 8->7: Button "Done" Tap
+
+ node 9
+ e20: 9->10: Table "Empty list" SelectIndex 1
+
+ node 10
+ e21: 10->11: Button "flipper list blue" Tap
+ e22: 10->9: Button "Back" Tap
+
+ node 11
+ e23: 11->11: Button "View at Wikipedia" Tap
+ e24: 11->10: Button "Done" Tap
+
+**
+
+
+** Test Scripts:
+
+   To state 0:  < e1 >
+
+   To state 0:  < e1 >
+
+   To state 1:  < e1, e2 >
+
+   To state 1:  < e1, e2 >
+
+   To state 2:  < e1, e2, e4, e6 >
+
+   To state 2:  < e1, e2, e4, e6 >
+
+   To state 3:  < e1, e3 >
+
+   To state 3:  < e1, e3 >
+
+   To state 4:  < e1, e3, e8 >
+
+   To state 4:  < e1, e3, e8 >
+
+   To state 5:  < e1, e3, e8, e10, e12 >
+
+   To state 5:  < e1, e3, e8, e10, e12 >
+
+   To state 6:  < e1, e3, e9 >
+
+   To state 6:  < e1, e3, e9 >
+
+   To state 7:  < e1, e3, e9, e14 >
+
+   To state 7:  < e1, e3, e9, e14 >
+
+   To state 8:  < e1, e3, e9, e14, e16, e18 >
+
+   To state 8:  < e1, e3, e9, e14, e16, e18 >
+
+   To state 9:  < e1, e3, e9, e15 >
+
+   To state 9:  < e1, e3, e9, e15 >
+
+   To state 10:  < e1, e3, e9, e15, e20 >
+
+   To state 10:  < e1, e3, e9, e15, e20 >
+
+   To state 11:  < e1, e3, e9, e15, e20, e21, e23 >
+
+   To state 11:  < e1, e3, e9, e15, e20, e21, e23 >
+**

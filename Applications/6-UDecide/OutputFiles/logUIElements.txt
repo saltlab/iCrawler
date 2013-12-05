@@ -1,0 +1,459 @@
+
+
+** UIRoundedRectButton details in RootViewController in State: S0:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 110}, {130, 37}} | bounds: {{0, 0}, {130, 37}} | center: {85, 128.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Yes / No
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{20, 130}, {130, 37}}
+
+  ** Targets & Actions **
+    target: <MainView: 0x7563b60; frame = (0 0; 320 460); autoresize = RM+BM; layer = <CALayer: 0x7563c10>> action: yesNo
+
+
+
+** UIRoundedRectButton details in RootViewController in State: S0:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{170, 110}, {130, 37}} | bounds: {{0, 0}, {130, 37}} | center: {235, 128.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: A / B / C / D
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{170, 130}, {130, 37}}
+
+  ** Targets & Actions **
+    target: <MainView: 0x7563b60; frame = (0 0; 320 460); autoresize = RM+BM; layer = <CALayer: 0x7563c10>> action: abcd
+
+
+
+** UIRoundedRectButton details in RootViewController in State: S0:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 155}, {130, 37}} | bounds: {{0, 0}, {130, 37}} | center: {85, 173.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: 1 - 100
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{20, 175}, {130, 37}}
+
+  ** Targets & Actions **
+    target: <MainView: 0x7563b60; frame = (0 0; 320 460); autoresize = RM+BM; layer = <CALayer: 0x7563c10>> action: oneToHundred
+
+
+
+** UIRoundedRectButton details in RootViewController in State: S0:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{170, 155}, {130, 37}} | bounds: {{0, 0}, {130, 37}} | center: {235, 173.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Left/Center/Right
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{170, 175}, {130, 37}}
+
+  ** Targets & Actions **
+    target: <MainView: 0x7563b60; frame = (0 0; 320 460); autoresize = RM+BM; layer = <CALayer: 0x7563c10>> action: leftCenterRight
+
+
+
+** UIRoundedRectButton details in RootViewController in State: S0:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 200}, {130, 37}} | bounds: {{0, 0}, {130, 37}} | center: {85, 218.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Buy / Sell / Hold
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{20, 220}, {130, 37}}
+
+  ** Targets & Actions **
+    target: <MainView: 0x7563b60; frame = (0 0; 320 460); autoresize = RM+BM; layer = <CALayer: 0x7563c10>> action: lottery
+
+
+
+** UIRoundedRectButton details in RootViewController in State: S0:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{170, 200}, {130, 37}} | bounds: {{0, 0}, {130, 37}} | center: {235, 218.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Agree / Disagree
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{170, 220}, {130, 37}}
+
+  ** Targets & Actions **
+    target: <MainView: 0x7563b60; frame = (0 0; 320 460); autoresize = RM+BM; layer = <CALayer: 0x7563c10>> action: agreeDisagree
+
+
+
+** UIRoundedRectButton details in RootViewController in State: S0:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 245}, {130, 37}} | bounds: {{0, 0}, {130, 37}} | center: {85, 263.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Heads / Tails
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{20, 265}, {130, 37}}
+
+  ** Targets & Actions **
+    target: <MainView: 0x7563b60; frame = (0 0; 320 460); autoresize = RM+BM; layer = <CALayer: 0x7563c10>> action: headsTails
+
+
+
+** UIRoundedRectButton details in RootViewController in State: S0:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{170, 245}, {130, 37}} | bounds: {{0, 0}, {130, 37}} | center: {235, 263.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Russian Roulette
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{170, 265}, {130, 37}}
+
+  ** Targets & Actions **
+    target: <MainView: 0x7563b60; frame = (0 0; 320 460); autoresize = RM+BM; layer = <CALayer: 0x7563c10>> action: russianRoulette
+
+
+
+** UIRoundedRectButton details in RootViewController in State: S0:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 290}, {130, 37}} | bounds: {{0, 0}, {130, 37}} | center: {85, 308.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Positive/Negative
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{20, 310}, {130, 37}}
+
+  ** Targets & Actions **
+    target: <MainView: 0x7563b60; frame = (0 0; 320 460); autoresize = RM+BM; layer = <CALayer: 0x7563c10>> action: positiveNegative
+
+
+
+** UIRoundedRectButton details in RootViewController in State: S0:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{170, 290}, {130, 37}} | bounds: {{0, 0}, {130, 37}} | center: {235, 308.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: True / False
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{170, 310}, {130, 37}}
+
+  ** Targets & Actions **
+    target: <MainView: 0x7563b60; frame = (0 0; 320 460); autoresize = RM+BM; layer = <CALayer: 0x7563c10>> action: trueFalse
+
+
+
+** UILabel details in RootViewController in State: S0:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 20}, {280, 82}} | bounds: {{0, 0}, {280, 82}} | center: {160, 61}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 256 G: 256 B: 256 A: 1.00
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: False
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{20, 40}, {280, 82}}
+
+
+
+** UIButton details in RootViewController in State: S0:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{274, 414}, {18, 19}} | bounds: {{0, 0}, {18, 19}} | center: {283, 423.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{274, 434}, {18, 19}}
+
+  ** Targets & Actions **
+    target: <RootViewController: 0x755f660> action: toggleView
+
+
+
+** UILabel details in RootViewController in State: S1:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 20}, {280, 21}} | bounds: {{0, 0}, {280, 21}} | center: {160, 30.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: 31 Days of iPhone Apps
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {280, 21}}
+
+
+
+** UILabel details in RootViewController in State: S1:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 49}, {280, 21}} | bounds: {{0, 0}, {280, 21}} | center: {160, 59.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Day 12: U Decide?
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {280, 21}}
+
+
+
+** UITextView details in RootViewController in State: S1:
+** UITextView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 78}, {280, 362}} | bounds: {{0, 0}, {280, 362}} | center: {160, 259}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: YES | multipleTouchEnabled: YES
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x75906a0; state = Possible; delaysTouchesBegan = YES; view = <UITextView 0x913c000>; target= <(action=delayed:, target=<UITextView 0x913c000>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x7591e50; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x913c000>; target= <(action=handlePan:, target=<UITextView 0x913c000>)>>",
+    "<UITextTapRecognizer: 0x75a05e0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x913c000>; target= <(action=oneFingerTapInUneditable:, target=<UITextInteractionAssistant 0x759f200>)>>",
+    "<UITextTapRecognizer: 0x75a0570; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x913c000>; target= <(action=doubleTapInUneditable:, target=<UITextInteractionAssistant 0x759f200>)>; numberOfTapsRequired = 2>",
+    "<UILongPressGestureRecognizer: 0x75a0300; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x913c000>; target= <(action=loupeGesture:, target=<UITextInteractionAssistant 0x759f200>)>>",
+    "<UITextTapRecognizer: 0x759fbd0; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x913c000>; target= <(action=twoFingerSingleTap:, target=<UITextInteractionAssistant 0x759f200>)>; numberOfTouchesRequired = 2>",
+    "<UITapAndAHalfRecognizer: 0x75a0120; state = Possible; view = <UITextView 0x913c000>; target= <(action=tapAndAHalf:, target=<UITextInteractionAssistant 0x759f200>)>>",
+    "<UILongPressGestureRecognizer: 0x759f990; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x913c000>; target= <(action=twoFingerRangedSelectGesture:, target=<UITextInteractionAssistant 0x759f200>)>>",
+    "<UITextTapRecognizer: 0x75a2d10; state = Possible; delaysTouchesEnded = NO; view = <UITextView 0x913c000>; target= <(action=oneFingerTripleTap:, target=<UITextInteractionAssistant 0x759f200>)>; numberOfTapsRequired = 3>"
+)
+
+  ** UITextView Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: AppsAmuck is proud to present our 10th free iPhone app, with source code. Day 1: Minutes to Midnight, Day 2: Bonfire, Day 3: OpenURL, Day 4: What is My IP?, Day 5: Count Me In, and five others now. Be sure to check back often to see what each new day will bring. We'd love to hear your ideas, suggestions, and feedback so please visit our site at http://www.appsamuck.com/ to let us know your thoughts today.{
+    NSColor = "UIDeviceRGBColorSpace 1 1 1 1";
+    NSFont = "<UICFFont: 0x755e800> font-family: \"Helvetica\"; font-weight: normal; font-style: normal; font-size: 17px";
+}
+    frame: {{0, 0}, {280, 280.5}}
+
+
+
+** UIImageView details in RootViewController in State: S1:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{273, 73}, {7, 289}} | bounds: {{0, 0}, {7, 289}} | center: {276.5, 217.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleLeftMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0.498571}, {1, 0.00285714}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {7, 289}}
+
+
+
+** UIBarButtonItem details in RootViewController in State: S1:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+

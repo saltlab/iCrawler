@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<States>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>*</ElementId>
+		<ElementCommand>TabBar &quot;*&quot; Select &quot;1st Tab&quot;</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>*</ElementId>
+		<ElementCommand>TabBar &quot;*&quot; Select &quot;1st Tab&quot;</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>ScrollViewclicked</Edge>
+		<ElementId>View</ElementId>
+		<ElementCommand>View</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoArchery</Edge>
+		<ElementId>archery</ElementId>
+		<ElementCommand>Button &quot;archery&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoAthletics</Edge>
+		<ElementId>athletics</ElementId>
+		<ElementCommand>Button &quot;athletics&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoBadminton</Edge>
+		<ElementId>badminton</ElementId>
+		<ElementCommand>Button &quot;badminton&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoBasketball</Edge>
+		<ElementId>basketball</ElementId>
+		<ElementCommand>Button &quot;basketball&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoBeach</Edge>
+		<ElementId>beach volleyball</ElementId>
+		<ElementCommand>Button &quot;beach volleyball&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoBoxing</Edge>
+		<ElementId>boxing</ElementId>
+		<ElementCommand>Button &quot;boxing&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoCanoe1</Edge>
+		<ElementId>canoe slalom</ElementId>
+		<ElementCommand>Button &quot;canoe slalom&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoCanoe2</Edge>
+		<ElementId>canoe sprint</ElementId>
+		<ElementCommand>Button &quot;canoe sprint&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoCycling1</Edge>
+		<ElementId>cycling bmx</ElementId>
+		<ElementCommand>Button &quot;cycling bmx&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoCycling2</Edge>
+		<ElementId>cycling mountain bike</ElementId>
+		<ElementCommand>Button &quot;cycling mountain bike&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoCycling3</Edge>
+		<ElementId>cycling road</ElementId>
+		<ElementCommand>Button &quot;cycling road&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoCycling4</Edge>
+		<ElementId>cycling track</ElementId>
+		<ElementCommand>Button &quot;cycling track&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoDiving</Edge>
+		<ElementId>diving</ElementId>
+		<ElementCommand>Button &quot;diving&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoEquestrian1</Edge>
+		<ElementId>equestrian dressage</ElementId>
+		<ElementCommand>Button &quot;equestrian dressage&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoEquestrian2</Edge>
+		<ElementId>equestrian eventing</ElementId>
+		<ElementCommand>Button &quot;equestrian eventing&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoEquestrian3</Edge>
+		<ElementId>equestrian jumping</ElementId>
+		<ElementCommand>Button &quot;equestrian jumping&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoFencing</Edge>
+		<ElementId>fencing</ElementId>
+		<ElementCommand>Button &quot;fencing&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoFootball</Edge>
+		<ElementId>football</ElementId>
+		<ElementCommand>Button &quot;football&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoGymnastics1</Edge>
+		<ElementId>gymnastics artistic</ElementId>
+		<ElementCommand>Button &quot;gymnastics artistic&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoGymnastics2</Edge>
+		<ElementId>gymnastics rhythmic</ElementId>
+		<ElementCommand>Button &quot;gymnastics rhythmic&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoGymnastics3</Edge>
+		<ElementId>gymnastics trampoline</ElementId>
+		<ElementCommand>Button &quot;gymnastics trampoline&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoHandball</Edge>
+		<ElementId>handball</ElementId>
+		<ElementCommand>Button &quot;handball&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoHockey</Edge>
+		<ElementId>hockey</ElementId>
+		<ElementCommand>Button &quot;hockey&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoJudo</Edge>
+		<ElementId>judo</ElementId>
+		<ElementCommand>Button &quot;judo&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoModern</Edge>
+		<ElementId>modern pentathlon</ElementId>
+		<ElementCommand>Button &quot;modern pentathlon&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoRowing</Edge>
+		<ElementId>rowing</ElementId>
+		<ElementCommand>Button &quot;rowing&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoSailing</Edge>
+		<ElementId>sailing</ElementId>
+		<ElementCommand>Button &quot;sailing&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoShooting</Edge>
+		<ElementId>shooting</ElementId>
+		<ElementCommand>Button &quot;shooting&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoSwimming</Edge>
+		<ElementId>swimming</ElementId>
+		<ElementCommand>Button &quot;swimming&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoSynchronisedSwimming</Edge>
+		<ElementId>synchronised swimming</ElementId>
+		<ElementCommand>Button &quot;synchronised swimming&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoTableTennis</Edge>
+		<ElementId>table tennis</ElementId>
+		<ElementCommand>Button &quot;table tennis&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoTaekwondo</Edge>
+		<ElementId>taekwondo</ElementId>
+		<ElementCommand>Button &quot;taekwondo&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoTennis</Edge>
+		<ElementId>tennis</ElementId>
+		<ElementCommand>Button &quot;tennis&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoTriathlon</Edge>
+		<ElementId>triathlon</ElementId>
+		<ElementCommand>Button &quot;triathlon&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoVolleyball</Edge>
+		<ElementId>volleyball</ElementId>
+		<ElementCommand>Button &quot;volleyball&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoWaterPolo</Edge>
+		<ElementId>water polo</ElementId>
+		<ElementCommand>Button &quot;water polo&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoWeightlifting</Edge>
+		<ElementId>weightlifting</ElementId>
+		<ElementCommand>Button &quot;weightlifting&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>gotoWrestling</Edge>
+		<ElementId>wrestling</ElementId>
+		<ElementCommand>Button &quot;wrestling&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Back</ElementId>
+		<ElementCommand>Button &quot;Back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State3</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>*</ElementId>
+		<ElementCommand>TabBar &quot;*&quot; Select &quot;1st Tab&quot;</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S3.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State3</PreviousState>
+		<CurrentState>State4</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>*</ElementId>
+		<ElementCommand>TabBar &quot;*&quot; Select &quot;1st Tab&quot;</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S4.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State4</PreviousState>
+		<CurrentState>State4</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>Empty list</ElementId>
+		<ElementCommand>Table &quot;Empty list&quot; SelectIndex 1</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S4.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State4</PreviousState>
+		<CurrentState>State5</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>*</ElementId>
+		<ElementCommand>TabBar &quot;*&quot; Select &quot;1st Tab&quot;</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/B16B1320-337B-43CF-BCFA-64BE7CAB959D/Library/Caches/Screenshots/S5.jpg</ScreenshotPath>
+	</State>
+</States>

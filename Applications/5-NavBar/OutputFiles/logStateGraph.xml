@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<States>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>Empty list</ElementId>
+		<ElementCommand>Table &quot;Empty list&quot; SelectIndex 1</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4125581C-7AF1-40BB-8645-F275ABE6D0EC/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>Add</ElementId>
+		<ElementCommand>Button &quot;Add&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4125581C-7AF1-40BB-8645-F275ABE6D0EC/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>UndefinedBackButtonItem</Edge>
+		<ElementId>NavBar</ElementId>
+		<ElementCommand>Button &quot;NavBar&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4125581C-7AF1-40BB-8645-F275ABE6D0EC/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>Done</ElementId>
+		<ElementCommand>Button &quot;Done&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4125581C-7AF1-40BB-8645-F275ABE6D0EC/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>dismissAction:</Edge>
+		<ElementId>Done</ElementId>
+		<ElementCommand>Button &quot;Done&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4125581C-7AF1-40BB-8645-F275ABE6D0EC/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>Style</ElementId>
+		<ElementCommand>Button &quot;Style&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4125581C-7AF1-40BB-8645-F275ABE6D0EC/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+</States>

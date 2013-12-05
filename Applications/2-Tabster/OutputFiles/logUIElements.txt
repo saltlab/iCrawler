@@ -1,0 +1,399 @@
+
+
+** UITabBar details in UITabBarController in State: S0:
+** UITabBar : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 431}, {320, 49}} | bounds: {{0, 0}, {320, 49}} | center: {160, 455.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleWidthMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 0 G: 0 B: 0 A: 0.00
+    alpha: 1.00 | opaque: YES | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UITabBar Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 431}, {320, 49}}
+
+
+
+** UITableView details in SubLevelViewController in State: S1:
+** UITableView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 0}, {320, 367}} | bounds: {{0, 0}, {320, 367}} | center: {160, 183.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleWidthMargin | UIViewAutoresizingFlexibleHeightMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 256 G: 256 B: 256 A: 1.00
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x75f0600; state = Possible; enabled = NO; delaysTouchesBegan = YES; view = <UITableView 0x893a000>; target= <(action=delayed:, target=<UITableView 0x893a000>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x75f06c0; state = Possible; enabled = NO; delaysTouchesEnded = NO; view = <UITableView 0x893a000>; target= <(action=handlePan:, target=<UITableView 0x893a000>)>>",
+    "<UISwipeGestureRecognizer: 0x75f0850; state = Possible; view = <UITableView 0x893a000>; target= <(action=handleSwipe:, target=<UITableView 0x893a000>)>; direction = right,left>",
+    "<UIGobblerGestureRecognizer: 0x75f0cc0; state = Possible; enabled = NO; view = <UITableView 0x893a000>>"
+)
+
+  ** UITableView Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Empty list
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {320, 367}}
+
+
+
+** UINavigationItemButtonView details in SubLevelViewController in State: S1:
+** UINavigationItemButtonView : UINavigationItemView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{119, 7}, {48, 30}} | bounds: {{0, 0}, {48, 30}} | center: {143, 22}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingNone
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeRedraw | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 0.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UINavigationItemButtonView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: One
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {48, 30}}
+
+
+
+** UIRoundedRectButton details in ModalViewController in State: S2:
+** UIRoundedRectButton : UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{124, 403}, {72, 37}} | bounds: {{0, 0}, {72, 37}} | center: {160, 421.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIRoundedRectButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Done
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {72, 37}}
+
+  ** Targets & Actions **
+    target: <ModalViewController: 0x75f1bb0> action: dismissAction:
+
+
+
+** UILabel details in ModalViewController in State: S2:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 15}, {280, 21}} | bounds: {{0, 0}, {280, 21}} | center: {160, 25.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleWidthMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Feature 1
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {280, 21}}
+
+
+
+** UITableView details in TwoViewController in State: S3:
+** UITableView : UIScrollView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 0}, {320, 367}} | bounds: {{0, 0}, {320, 367}} | center: {160, 183.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleWidthMargin | UIViewAutoresizingFlexibleHeightMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: R: 256 G: 256 B: 256 A: 1.00
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: (
+    "<UIScrollViewDelayedTouchesBeganGestureRecognizer: 0x75e1ee0; state = Possible; delaysTouchesBegan = YES; view = <UITableView 0x8936800>; target= <(action=delayed:, target=<UITableView 0x8936800>)>>",
+    "<UIScrollViewPanGestureRecognizer: 0x75e1cf0; state = Possible; delaysTouchesEnded = NO; view = <UITableView 0x8936800>; target= <(action=handlePan:, target=<UITableView 0x8936800>)>>",
+    "<UISwipeGestureRecognizer: 0x75e2160; state = Possible; view = <UITableView 0x8936800>; target= <(action=handleSwipe:, target=<UITableView 0x8936800>)>; direction = right,left>",
+    "<UIGobblerGestureRecognizer: 0x75e25d0; state = Possible; enabled = NO; view = <UITableView 0x8936800>>"
+)
+
+  ** UITableView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: Empty list
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {320, 367}}
+
+
+
+** UIImageView details in LandscapeViewController in State: S4:
+** UIImageView : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{0, 0}, {320, 460}} | bounds: {{0, 0}, {320, 460}} | center: {160, 230}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleWidthMargin | UIViewAutoresizingFlexibleHeightMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIImageView Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: iPod_nano.png
+    hint: (null)
+    traits: UIAccessibilityTraitImage
+    value: (null)
+    frame: {{0, 0}, {320, 460}}
+
+
+
+** UIButton details in LandscapeViewController in State: S4:
+** UIButton : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{6, 259}, {35, 37}} | bounds: {{0, 0}, {35, 37}} | center: {23.5, 277.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UIButton Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: left
+    hint: (null)
+    traits: UIAccessibilityTraitButton
+    value: (null)
+    frame: {{0, 0}, {35, 37}}
+
+  ** Targets & Actions **
+    target: <LandscapeViewController: 0x75f1710> action: doneAction:
+
+
+
+** UITextField details in ThreeViewController in State: S5:
+** UITextField : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{76, 20}, {224, 31}} | bounds: {{0, 0}, {224, 31}} | center: {188, 35.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleWidthMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: (
+    "<UITextTapRecognizer: 0x728b590; state = Possible; delaysTouchesEnded = NO; view = <UITextField 0x75d2220>; target= <(action=oneFingerTripleTap:, target=<UITextInteractionAssistant 0x75d7a20>)>; numberOfTapsRequired = 3>",
+    "<UITextTapRecognizer: 0x7297df0; state = Possible; delaysTouchesEnded = NO; view = <UITextField 0x75d2220>; target= <(action=oneFingerDoubleTap:, target=<UITextInteractionAssistant 0x75d7a20>)>; numberOfTapsRequired = 2>",
+    "<UITextTapRecognizer: 0x728cd90; state = Possible; delaysTouchesEnded = NO; view = <UITextField 0x75d2220>; target= <(action=twoFingerSingleTap:, target=<UITextInteractionAssistant 0x75d7a20>)>; numberOfTouchesRequired = 2>",
+    "<UITapAndAHalfRecognizer: 0x72903a0; state = Possible; view = <UITextField 0x75d2220>; target= <(action=tapAndAHalf:, target=<UITextInteractionAssistant 0x75d7a20>)>>",
+    "<UILongPressGestureRecognizer: 0x729e0d0; state = Possible; delaysTouchesEnded = NO; view = <UITextField 0x75d2220>; target= <(action=twoFingerRangedSelectGesture:, target=<UITextInteractionAssistant 0x75d7a20>)>>",
+    "<UITextTapRecognizer: 0x729e1d0; state = Possible; delaysTouchesEnded = NO; view = <UITextField 0x75d2220>; target= <(action=oneFingerTap:, target=<UITextInteractionAssistant 0x75d7a20>)>>",
+    "<UIVariableDelayLoupeGesture: 0x728b980; state = Possible; delaysTouchesEnded = NO; view = <UITextField 0x75d2220>; target= <(action=loupeGesture:, target=<UITextInteractionAssistant 0x75d7a20>)>>"
+)
+
+  ** UITextField Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: 12345
+    frame: {{0, 0}, {224, 31}}
+
+  ** Targets & Actions **
+
+
+
+** UILabel details in ThreeViewController in State: S5:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 23}, {63, 21}} | bounds: {{0, 0}, {63, 21}} | center: {51.5, 33.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Value:
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {63, 21}}
+
+
+
+** UITextField details in ThreeViewController in State: S6:
+** UITextField : UIControl : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{76, 20}, {224, 31}} | bounds: {{0, 0}, {224, 31}} | center: {188, 35.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleWidthMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: NO | clearsContextBeforeDrawing: NO
+    userInteractionEnabled: YES | multipleTouchEnabled: NO
+    gestureRecognizers: (
+    "<UITextTapRecognizer: 0x728b590; state = Possible; delaysTouchesEnded = NO; view = <UITextField 0x75d2220>; target= <(action=oneFingerTripleTap:, target=<UITextInteractionAssistant 0x75d7a20>)>; numberOfTapsRequired = 3>",
+    "<UITextTapRecognizer: 0x7297df0; state = Possible; delaysTouchesEnded = NO; view = <UITextField 0x75d2220>; target= <(action=oneFingerDoubleTap:, target=<UITextInteractionAssistant 0x75d7a20>)>; numberOfTapsRequired = 2>",
+    "<UITextTapRecognizer: 0x728cd90; state = Possible; delaysTouchesEnded = NO; view = <UITextField 0x75d2220>; target= <(action=twoFingerSingleTap:, target=<UITextInteractionAssistant 0x75d7a20>)>; numberOfTouchesRequired = 2>",
+    "<UITapAndAHalfRecognizer: 0x72903a0; state = Possible; view = <UITextField 0x75d2220>; target= <(action=tapAndAHalf:, target=<UITextInteractionAssistant 0x75d7a20>)>>",
+    "<UILongPressGestureRecognizer: 0x729e0d0; state = Possible; delaysTouchesEnded = NO; view = <UITextField 0x75d2220>; target= <(action=twoFingerRangedSelectGesture:, target=<UITextInteractionAssistant 0x75d7a20>)>>",
+    "<UITextTapRecognizer: 0x729e1d0; state = Possible; delaysTouchesEnded = NO; view = <UITextField 0x75d2220>; target= <(action=oneFingerTap:, target=<UITextInteractionAssistant 0x75d7a20>)>>",
+    "<UIVariableDelayLoupeGesture: 0x728b980; state = Possible; delaysTouchesEnded = NO; view = <UITextField 0x75d2220>; target= <(action=loupeGesture:, target=<UITextInteractionAssistant 0x75d7a20>)>>"
+)
+
+  ** UITextField Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: 12345
+    frame: {{0, 0}, {224, 31}}
+
+  ** Targets & Actions **
+
+
+
+** UILabel details in ThreeViewController in State: S6:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 23}, {63, 21}} | bounds: {{0, 0}, {63, 21}} | center: {51.5, 33.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Value:
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {63, 21}}
+
+
+
+** UIBarButtonItem details in ThreeViewController in State: S6:
+** UIBarButtonItem : UIBarItem : NSObject ** 
+
+  ** UIBarButtonItem Accessibility Properties **
+    accessibilityElement enabled: NO 
+    label: (null)
+    hint: (null)
+    traits: UIAccessibilityTraitNone
+    value: (null)
+    frame: {{0, 0}, {0, 0}}
+
+
+
+** UILabel details in FourViewController in State: S7:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 12}, {280, 43}} | bounds: {{0, 0}, {280, 43}} | center: {160, 33.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleWidthMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Four
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{0, 0}, {280, 43}}
+
+
+
+** UILabel details in FeaturedViewController in State: S8:
+** UILabel : UIView : UIResponder : NSObject ** 
+
+  ** UIView properties **
+    tag: 0
+    frame: {{20, 20}, {280, 29}} | bounds: {{0, 0}, {280, 29}} | center: {160, 34.5}
+    transform: [1, 0, 0, 1, 0, 0]
+    autoresizingMask: UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleWidthMargin
+    autoresizesSubviews: YES
+    contentMode: UIViewContentModeScaleToFill | contentStretch: {{0, 0}, {1, 1}}
+    backgroundColor: nil
+    alpha: 1.00 | opaque: NO | hidden: NO | clips to bounds: YES | clearsContextBeforeDrawing: YES
+    userInteractionEnabled: NO | multipleTouchEnabled: NO
+    gestureRecognizers: nil
+
+  ** UILabel Accessibility Properties **
+    accessibilityElement enabled: YES 
+    label: Featured
+    hint: (null)
+    traits: UIAccessibilityTraitStaticText
+    value: (null)
+    frame: {{20, 40}, {280, 29}}
+
