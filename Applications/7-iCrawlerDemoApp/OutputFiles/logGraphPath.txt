@@ -1,0 +1,121 @@
+
+
+** Graph with 12 nodes and 40 edges
+
+ node 0
+ e1: 0->1: Button "Button > Detail" Tap
+ e2: 0->4: Button "Button > Website" Tap
+ e3: 0->3: Button "Button > HTML" Tap
+ e4: 0->5: Button "Button > TabBar" Tap
+ e5: 0->9: Button "Button > Table" Tap
+ e6: 0->10: Button "Button > Text view" Tap
+ e7: 0->11: Button "Button > Modal Detail" Tap
+
+ node 1
+ e8: 1->2: Button "website button" Tap
+ e9: 1->3: Button "Html button" Tap
+ e10: 1->3: Button "button up" Tap
+ e11: 1->0: Button "button back" Tap
+
+ node 2
+ e12: 2->1: Button "button back" Tap
+ e13: 2->6: Button "button back" Tap
+ e14: 2->11: Button "button back" Tap
+
+ node 3
+ e15: 3->1: Button "button back" Tap
+ e16: 3->0: Button "button back" Tap
+ e17: 3->6: Button "button back" Tap
+ e18: 3->11: Button "button back" Tap
+
+ node 4
+ e19: 4->0: Button "button back" Tap
+
+ node 5
+ e20: 5->5: TabBar "*" Select "1st Tab"
+ e21: 5->6: Table "tableView" SelectIndex 1
+ e22: 5->7: Button "button back" Tap
+
+ node 6
+ e23: 6->2: Button "website button" Tap
+ e24: 6->3: Button "Html button" Tap
+ e25: 6->5: Button "button back" Tap
+ e26: 6->7: Button "button back" Tap
+ e27: 6->8: Button "button back" Tap
+ e28: 6->9: Button "button back" Tap
+
+ node 7
+ e29: 7->6: Table "tableView" SelectIndex 1
+ e30: 7->8: Button "button back" Tap
+
+ node 8
+ e31: 8->6: Table "tableView" SelectIndex 1
+ e32: 8->0: Button "button back" Tap
+
+ node 9
+ e33: 9->6: Table "tableView" SelectIndex 1
+ e34: 9->0: Button "button back" Tap
+
+ node 10
+ e35: 10->10: TextArea "*" EnterText abc
+ e36: 10->10: Button "button done" Tap
+ e37: 10->0: Button "button back" Tap
+
+ node 11
+ e38: 11->2: Button "website button" Tap
+ e39: 11->3: Button "Html button" Tap
+ e40: 11->0: Button "button close" Tap
+
+**
+
+
+** Test Scripts:
+
+   To state 0:   >
+
+   To state 0:   >
+
+   To state 1:  < e7, e39, e17, e23, e12 >
+
+   To state 1:  < e7, e9 >
+
+   To state 2:  < e7, e39, e17, e23 >
+
+   To state 2:  < e7, e9, e13 >
+
+   To state 3:  < e7, e39 >
+
+   To state 3:  < e7, e-2147483648 >
+
+   To state 4:  < e2 >
+
+   To state 4:  < e2 >
+
+   To state 5:  < e7, e39, e17, e25, e20 >
+
+   To state 5:  < e7, e20, e-2147483648 >
+
+   To state 6:  < e7, e39, e17 >
+
+   To state 6:  < e7, e9, e17 >
+
+   To state 7:  < e7, e39, e17, e26 >
+
+   To state 7:  < e7, e20, e-2147483648, e29 >
+
+   To state 8:  < e7, e39, e17, e27 >
+
+   To state 8:  < e7, e9, e17, e27 >
+
+   To state 9:  < e7, e39, e17, e28 >
+
+   To state 9:  < e7, e-2147483648 >
+
+   To state 10:  < e6, e35, e36 >
+
+   To state 10:  < e6, e35, e36 >
+
+   To state 11:  < e7 >
+
+   To state 11:  < e7 >
+**

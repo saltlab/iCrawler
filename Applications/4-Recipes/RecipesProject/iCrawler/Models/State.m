@@ -79,9 +79,13 @@
 	id mainController;
 	NSObject <UIApplicationDelegate> *appDelegate = (NSObject <UIApplicationDelegate> *)[[UIApplication sharedApplication] delegate];
 	Class appDelegateClass = object_getClass(appDelegate);
-	
+    Class appDelegateSuperClass = [appDelegateClass superclass];
+    
 	unsigned int outCount, i;
 	objc_property_t *properties = class_copyPropertyList([appDelegateClass class], &outCount);
+    if (!properties && appDelegateSuperClass) 
+        properties = class_copyPropertyList(appDelegateSuperClass, &outCount);
+    
 	for(i = 0; i < outCount; i++) {
 		objc_property_t property = properties[i];
 		const char *propName = property_getName(property);

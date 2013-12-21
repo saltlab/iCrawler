@@ -376,9 +376,9 @@ ICrawlerController *sharedInstance = nil;
 		}
         //[[[Globals sharedInstance] xmlNodesArray] removeObjectAtIndex:0];
 		[OutputComponent writeXMLFile];
-        [OutputComponent writeAllStatesElements];
         [OutputComponent writeTestScripts];
-		[self release];
+        [OutputComponent writeAllStatesElements];
+        [self release];
 		
 		int finish = [[NSDate date] timeIntervalSince1970];
 		NSLog(@"finish Time : %i", finish);

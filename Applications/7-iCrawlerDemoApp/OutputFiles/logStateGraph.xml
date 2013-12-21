@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<States>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>detailButtonClicked</Edge>
+		<ElementId>Button &gt; Detail</ElementId>
+		<ElementCommand>Button &quot;Button &gt; Detail&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>viewWebsite</Edge>
+		<ElementId>website button</ElementId>
+		<ElementCommand>Button &quot;website button&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State3</CurrentState>
+		<Edge>viewHtml</Edge>
+		<ElementId>Html button</ElementId>
+		<ElementCommand>Button &quot;Html button&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S3.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State3</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State3</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>button up</ElementId>
+		<ElementCommand>Button &quot;button up&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S3.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State3</PreviousState>
+		<CurrentState>State1</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S1.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State1</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State4</CurrentState>
+		<Edge>websiteButtonClicked</Edge>
+		<ElementId>Button &gt; Website</ElementId>
+		<ElementCommand>Button &quot;Button &gt; Website&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S4.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State4</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State3</CurrentState>
+		<Edge>htmlButtonClicked</Edge>
+		<ElementId>Button &gt; HTML</ElementId>
+		<ElementCommand>Button &quot;Button &gt; HTML&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S3.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State3</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State5</CurrentState>
+		<Edge>tabBarButtonClicked</Edge>
+		<ElementId>Button &gt; TabBar</ElementId>
+		<ElementCommand>Button &quot;Button &gt; TabBar&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S5.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State5</PreviousState>
+		<CurrentState>State5</CurrentState>
+		<Edge>TabBarItemclicked</Edge>
+		<ElementId>*</ElementId>
+		<ElementCommand>TabBar &quot;*&quot; Select &quot;1st Tab&quot;</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S5.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State5</PreviousState>
+		<CurrentState>State6</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>tableView</ElementId>
+		<ElementCommand>Table &quot;tableView&quot; SelectIndex 1</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S6.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State6</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>viewWebsite</Edge>
+		<ElementId>website button</ElementId>
+		<ElementCommand>Button &quot;website button&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State6</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S6.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State6</PreviousState>
+		<CurrentState>State3</CurrentState>
+		<Edge>viewHtml</Edge>
+		<ElementId>Html button</ElementId>
+		<ElementCommand>Button &quot;Html button&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S3.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State3</PreviousState>
+		<CurrentState>State6</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S6.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State6</PreviousState>
+		<CurrentState>State5</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S5.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State5</PreviousState>
+		<CurrentState>State7</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S7.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State7</PreviousState>
+		<CurrentState>State6</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>tableView</ElementId>
+		<ElementCommand>Table &quot;tableView&quot; SelectIndex 1</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S6.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State6</PreviousState>
+		<CurrentState>State7</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S7.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State7</PreviousState>
+		<CurrentState>State8</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S8.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State8</PreviousState>
+		<CurrentState>State6</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>tableView</ElementId>
+		<ElementCommand>Table &quot;tableView&quot; SelectIndex 1</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S6.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State6</PreviousState>
+		<CurrentState>State8</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S8.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State8</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State9</CurrentState>
+		<Edge>tableButtonClicked</Edge>
+		<ElementId>Button &gt; Table</ElementId>
+		<ElementCommand>Button &quot;Button &gt; Table&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S9.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State9</PreviousState>
+		<CurrentState>State6</CurrentState>
+		<Edge>TableCellClicked</Edge>
+		<ElementId>tableView</ElementId>
+		<ElementCommand>Table &quot;tableView&quot; SelectIndex 1</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S6.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State6</PreviousState>
+		<CurrentState>State9</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S9.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State9</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State10</CurrentState>
+		<Edge>textViewButtonClicked</Edge>
+		<ElementId>Button &gt; Text view</ElementId>
+		<ElementCommand>Button &quot;Button &gt; Text view&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S10.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State10</PreviousState>
+		<CurrentState>State10</CurrentState>
+		<Edge>WriteInUITextView</Edge>
+		<ElementId>*</ElementId>
+		<ElementCommand>TextArea &quot;*&quot; EnterText abc</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S10.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State10</PreviousState>
+		<CurrentState>State10</CurrentState>
+		<Edge>RightBarButtonItem</Edge>
+		<ElementId>button done</ElementId>
+		<ElementCommand>Button &quot;button done&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S10.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State10</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State0</PreviousState>
+		<CurrentState>State11</CurrentState>
+		<Edge>modalButtonClicked</Edge>
+		<ElementId>Button &gt; Modal Detail</ElementId>
+		<ElementCommand>Button &quot;Button &gt; Modal Detail&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S11.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State11</PreviousState>
+		<CurrentState>State2</CurrentState>
+		<Edge>viewWebsite</Edge>
+		<ElementId>website button</ElementId>
+		<ElementCommand>Button &quot;website button&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S2.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State2</PreviousState>
+		<CurrentState>State11</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S11.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State11</PreviousState>
+		<CurrentState>State3</CurrentState>
+		<Edge>viewHtml</Edge>
+		<ElementId>Html button</ElementId>
+		<ElementCommand>Button &quot;Html button&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S3.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State3</PreviousState>
+		<CurrentState>State11</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button back</ElementId>
+		<ElementCommand>Button &quot;button back&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S11.jpg</ScreenshotPath>
+	</State>
+	<State>
+		<PreviousState>State11</PreviousState>
+		<CurrentState>State0</CurrentState>
+		<Edge>LeftBarButtonItem</Edge>
+		<ElementId>button close</ElementId>
+		<ElementCommand>Button &quot;button close&quot; Tap</ElementCommand>
+		<ScreenshotPath>/Users/Mona/Library/Application Support/iPhone Simulator/6.1/Applications/4A167BDB-DA93-4220-9073-C42A20DE21A3/Library/Caches/Screenshots/S0.jpg</ScreenshotPath>
+	</State>
+</States>
