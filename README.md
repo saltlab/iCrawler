@@ -15,5 +15,5 @@ Add the `iCrawler` class files to your project, add the QuartzCore framework if 
     [[ICrawlerController sharedICrawler] start];
     
 
-A a demo app is included.
+
 
