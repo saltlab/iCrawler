@@ -1,6 +1,6 @@
 iCrawler
 ========
-We presented our reverse engineering technique to automatically navigate a given iPhone application and infer a model of its user interface states. We implemented our approach in iCrawler, which is capable of exercising and analyzing UI changes and generate a state model of an iPhone application.
+iCrawler automatically navigates native iPhone apps and reverse engineers a model of their user interface states. 
 
 
 
@@ -15,5 +15,5 @@ Add the `iCrawler` class files to your project, add the QuartzCore framework if 
     [[ICrawlerController sharedICrawler] start];
     
 
-A a demo app is included to test it out n the Applications folder.
+A a demo app is included.
 
