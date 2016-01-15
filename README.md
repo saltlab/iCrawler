@@ -3,6 +3,11 @@ iCrawler
 iCrawler automatically navigates native iPhone apps and reverse engineers a model of their user interface states. 
 
 
+Paper
+-----
+
+The technique behind iCrawler is published as a research paper at WCRE 2012. It is titled <a href="http://ece.ubc.ca/~amesbah/docs/wcre12.pdf">Reverse Engineering iOS Mobile Applications</a> and is available as a PDF. 
+
 
 Usage
 -----
